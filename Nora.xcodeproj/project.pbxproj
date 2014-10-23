@@ -1,0 +1,1857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD029D3317422AEC00569F38 /* NOError.m in Sources */ = {isa = PBXBuildFile; fileRef = CD029D3217422AEC00569F38 /* NOError.m */; };
+		CD043D00174DE3C8009DA526 /* NOColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = CD043CFF174DE3C8009DA526 /* NOColumn.m */; };
+		CD043D05174DFF08009DA526 /* NOTempObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD043D04174DFF07009DA526 /* NOTempObject.m */; };
+		CD0A20F817536E0300722CE4 /* ColumnCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20F717536E0300722CE4 /* ColumnCellView.m */; };
+		CD2F349A1714968700A78744 /* DMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F34971714968700A78744 /* DMTabBar.m */; };
+		CD2F349B1714968700A78744 /* DMTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F34991714968700A78744 /* DMTabBarItem.m */; };
+		CD38A10E172A6B2B00AD15EA /* TableController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38A10C172A6B2B00AD15EA /* TableController.m */; };
+		CD38A10F172A6B2B00AD15EA /* TableController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38A10C172A6B2B00AD15EA /* TableController.m */; };
+		CD38A110172A6B2B00AD15EA /* TableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD38A10D172A6B2B00AD15EA /* TableController.xib */; };
+		CD38A111172A6B2B00AD15EA /* TableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD38A10D172A6B2B00AD15EA /* TableController.xib */; };
+		CD38A114172BBE3400AD15EA /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38A113172BBE3400AD15EA /* ConnectionManager.m */; };
+		CD38A115172BBE3400AD15EA /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38A113172BBE3400AD15EA /* ConnectionManager.m */; };
+		CD57595F177D88A300B10BF5 /* IndexCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD57595E177D88A300B10BF5 /* IndexCellView.m */; };
+		CD575962177EF57600B10BF5 /* ConstraintCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD575961177EF57500B10BF5 /* ConstraintCellView.m */; };
+		CD6049FC173949CF0035E779 /* PSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6049FB173949CE0035E779 /* PSTableView.m */; };
+		CD8E5A221703102B00329E65 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E5A211703102B00329E65 /* Cocoa.framework */; };
+		CD8E5A2C1703102B00329E65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD8E5A2A1703102B00329E65 /* InfoPlist.strings */; };
+		CD8E5A2E1703102B00329E65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E5A2D1703102B00329E65 /* main.m */; };
+		CD8E5A321703102B00329E65 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD8E5A301703102B00329E65 /* Credits.rtf */; };
+		CD8E5A351703102B00329E65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E5A341703102B00329E65 /* AppDelegate.m */; };
+		CD8E5A381703102B00329E65 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8E5A361703102B00329E65 /* MainMenu.xib */; };
+		CD8E5A401703102B00329E65 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E5A3F1703102B00329E65 /* SenTestingKit.framework */; };
+		CD8E5A411703102B00329E65 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E5A211703102B00329E65 /* Cocoa.framework */; };
+		CD8E5A491703102B00329E65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD8E5A471703102B00329E65 /* InfoPlist.strings */; };
+		CD8E5A4C1703102B00329E65 /* NoraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E5A4B1703102B00329E65 /* NoraTests.m */; };
+		CD8E5A5C1703108600329E65 /* PXSourceList.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E5A581703108600329E65 /* PXSourceList.m */; };
+		CD8E5A5F170310A400329E65 /* SourceListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E5A5E170310A400329E65 /* SourceListItem.m */; };
+		CD8E5A62170314BA00329E65 /* ColorGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E5A61170314BA00329E65 /* ColorGradientView.m */; };
+		CD8E5A6617031DB600329E65 /* ConnectionViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E5A6417031DB600329E65 /* ConnectionViewViewController.m */; };
+		CD8E5A6717031DB600329E65 /* ConnectionViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8E5A6517031DB600329E65 /* ConnectionViewViewController.xib */; };
+		CD8E5A6B1703295C00329E65 /* QueryController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E5A691703295C00329E65 /* QueryController.m */; };
+		CD8E5A6C1703295C00329E65 /* QueryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8E5A6A1703295C00329E65 /* QueryController.xib */; };
+		CD93F47C17688618004104B6 /* ColorGradWithShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = CD93F47B17688618004104B6 /* ColorGradWithShadow.m */; };
+		CDD064861722AACF00F550FB /* TableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD064841722AACF00F550FB /* TableViewViewController.m */; };
+		CDD064871722AACF00F550FB /* TableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD064851722AACF00F550FB /* TableViewViewController.xib */; };
+		CDE7177E175CA5570044EFD4 /* DataTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE7177D175CA5570044EFD4 /* DataTableController.m */; };
+		CDE71781175CA6230044EFD4 /* DataTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE71780175CA6230044EFD4 /* DataTableView.m */; };
+		CDE71785175F5AFE0044EFD4 /* TablePropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE71783175F5AFE0044EFD4 /* TablePropertiesViewController.m */; };
+		CDE71786175F5AFE0044EFD4 /* TablePropertiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE71784175F5AFE0044EFD4 /* TablePropertiesViewController.xib */; };
+		CDFE681A171727A3008DCC17 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE6819171727A3008DCC17 /* Connection.m */; };
+		DA637E45180195DA00C52261 /* nora.iconset in Resources */ = {isa = PBXBuildFile; fileRef = DA637E44180195DA00C52261 /* nora.iconset */; };
+		DA6E9BE8187B055D0082F3D5 /* BindSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA6E9BE7187B055D0082F3D5 /* BindSheet.xib */; };
+		DA7EA8F3182EFC0A002EAFD6 /* MGSFragaria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7EA8F2182EFC0A002EAFD6 /* MGSFragaria.framework */; };
+		DA7EA956182F013F002EAFD6 /* actionscript.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA900182F013F002EAFD6 /* actionscript.plist */; };
+		DA7EA957182F013F002EAFD6 /* actionscript3.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA901182F013F002EAFD6 /* actionscript3.plist */; };
+		DA7EA958182F013F002EAFD6 /* active4d.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA902182F013F002EAFD6 /* active4d.plist */; };
+		DA7EA959182F013F002EAFD6 /* ada.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA903182F013F002EAFD6 /* ada.plist */; };
+		DA7EA95A182F013F002EAFD6 /* ampl.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA904182F013F002EAFD6 /* ampl.plist */; };
+		DA7EA95B182F013F002EAFD6 /* apache.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA905182F013F002EAFD6 /* apache.plist */; };
+		DA7EA95C182F013F002EAFD6 /* applescript.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA906182F013F002EAFD6 /* applescript.plist */; };
+		DA7EA95D182F013F002EAFD6 /* asm-mips.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA907182F013F002EAFD6 /* asm-mips.plist */; };
+		DA7EA95E182F013F002EAFD6 /* asm-x86.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA908182F013F002EAFD6 /* asm-x86.plist */; };
+		DA7EA95F182F013F002EAFD6 /* asp-js.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA909182F013F002EAFD6 /* asp-js.plist */; };
+		DA7EA960182F013F002EAFD6 /* asp-vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA90A182F013F002EAFD6 /* asp-vb.plist */; };
+		DA7EA961182F013F002EAFD6 /* aspdotnet-cs.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA90B182F013F002EAFD6 /* aspdotnet-cs.plist */; };
+		DA7EA962182F013F002EAFD6 /* aspdotnet-vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA90C182F013F002EAFD6 /* aspdotnet-vb.plist */; };
+		DA7EA963182F013F002EAFD6 /* awk.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA90D182F013F002EAFD6 /* awk.plist */; };
+		DA7EA964182F013F002EAFD6 /* batch.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA90E182F013F002EAFD6 /* batch.plist */; };
+		DA7EA965182F013F002EAFD6 /* c.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA90F182F013F002EAFD6 /* c.plist */; };
+		DA7EA966182F013F002EAFD6 /* cobol.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA910182F013F002EAFD6 /* cobol.plist */; };
+		DA7EA967182F013F002EAFD6 /* coffeescript.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA911182F013F002EAFD6 /* coffeescript.plist */; };
+		DA7EA968182F013F002EAFD6 /* coldfusion.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA912182F013F002EAFD6 /* coldfusion.plist */; };
+		DA7EA969182F013F002EAFD6 /* cpp.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA913182F013F002EAFD6 /* cpp.plist */; };
+		DA7EA96A182F013F002EAFD6 /* csharp.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA914182F013F002EAFD6 /* csharp.plist */; };
+		DA7EA96B182F013F002EAFD6 /* csound.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA915182F013F002EAFD6 /* csound.plist */; };
+		DA7EA96C182F013F002EAFD6 /* css.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA916182F013F002EAFD6 /* css.plist */; };
+		DA7EA96D182F013F002EAFD6 /* d.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA917182F013F002EAFD6 /* d.plist */; };
+		DA7EA96E182F013F002EAFD6 /* dylan.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA918182F013F002EAFD6 /* dylan.plist */; };
+		DA7EA96F182F013F002EAFD6 /* eiffel.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA919182F013F002EAFD6 /* eiffel.plist */; };
+		DA7EA970182F013F002EAFD6 /* erl.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA91A182F013F002EAFD6 /* erl.plist */; };
+		DA7EA971182F013F002EAFD6 /* eztpl.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA91B182F013F002EAFD6 /* eztpl.plist */; };
+		DA7EA972182F013F002EAFD6 /* f-script.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA91C182F013F002EAFD6 /* f-script.plist */; };
+		DA7EA973182F013F002EAFD6 /* fortran.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA91D182F013F002EAFD6 /* fortran.plist */; };
+		DA7EA974182F013F002EAFD6 /* freefem.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA91E182F013F002EAFD6 /* freefem.plist */; };
+		DA7EA975182F013F002EAFD6 /* gedcom.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA91F182F013F002EAFD6 /* gedcom.plist */; };
+		DA7EA976182F013F002EAFD6 /* gnuassembler.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA920182F013F002EAFD6 /* gnuassembler.plist */; };
+		DA7EA977182F013F002EAFD6 /* graphviz.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA921182F013F002EAFD6 /* graphviz.plist */; };
+		DA7EA978182F013F002EAFD6 /* haskell.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA922182F013F002EAFD6 /* haskell.plist */; };
+		DA7EA979182F013F002EAFD6 /* header.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA923182F013F002EAFD6 /* header.plist */; };
+		DA7EA97A182F013F002EAFD6 /* html.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA924182F013F002EAFD6 /* html.plist */; };
+		DA7EA97B182F013F002EAFD6 /* idl.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA925182F013F002EAFD6 /* idl.plist */; };
+		DA7EA97C182F013F002EAFD6 /* java.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA926182F013F002EAFD6 /* java.plist */; };
+		DA7EA97D182F013F002EAFD6 /* javafx.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA927182F013F002EAFD6 /* javafx.plist */; };
+		DA7EA97E182F013F002EAFD6 /* javascript.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA928182F013F002EAFD6 /* javascript.plist */; };
+		DA7EA97F182F013F002EAFD6 /* jsp.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA929182F013F002EAFD6 /* jsp.plist */; };
+		DA7EA980182F013F002EAFD6 /* latex.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA92A182F013F002EAFD6 /* latex.plist */; };
+		DA7EA981182F013F002EAFD6 /* lilypond.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA92B182F013F002EAFD6 /* lilypond.plist */; };
+		DA7EA982182F013F002EAFD6 /* lisp.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA92C182F013F002EAFD6 /* lisp.plist */; };
+		DA7EA983182F013F002EAFD6 /* logtalk.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA92D182F013F002EAFD6 /* logtalk.plist */; };
+		DA7EA984182F013F002EAFD6 /* lsl.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA92E182F013F002EAFD6 /* lsl.plist */; };
+		DA7EA985182F013F002EAFD6 /* lua.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA92F182F013F002EAFD6 /* lua.plist */; };
+		DA7EA986182F013F002EAFD6 /* matlab.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA930182F013F002EAFD6 /* matlab.plist */; };
+		DA7EA987182F013F002EAFD6 /* mel.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA931182F013F002EAFD6 /* mel.plist */; };
+		DA7EA988182F013F002EAFD6 /* metapost.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA932182F013F002EAFD6 /* metapost.plist */; };
+		DA7EA989182F013F002EAFD6 /* metaslang.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA933182F013F002EAFD6 /* metaslang.plist */; };
+		DA7EA98A182F013F002EAFD6 /* mysql.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA934182F013F002EAFD6 /* mysql.plist */; };
+		DA7EA98B182F013F002EAFD6 /* nemerle.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA935182F013F002EAFD6 /* nemerle.plist */; };
+		DA7EA98C182F013F002EAFD6 /* none.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA936182F013F002EAFD6 /* none.plist */; };
+		DA7EA98D182F013F002EAFD6 /* nrnhoc.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA937182F013F002EAFD6 /* nrnhoc.plist */; };
+		DA7EA98E182F013F002EAFD6 /* objectivec.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA938182F013F002EAFD6 /* objectivec.plist */; };
+		DA7EA98F182F013F002EAFD6 /* objectivecaml.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA939182F013F002EAFD6 /* objectivecaml.plist */; };
+		DA7EA990182F013F002EAFD6 /* ox.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA93A182F013F002EAFD6 /* ox.plist */; };
+		DA7EA991182F013F002EAFD6 /* pascal.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA93B182F013F002EAFD6 /* pascal.plist */; };
+		DA7EA992182F013F002EAFD6 /* pdf.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA93C182F013F002EAFD6 /* pdf.plist */; };
+		DA7EA993182F013F002EAFD6 /* perl.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA93D182F013F002EAFD6 /* perl.plist */; };
+		DA7EA994182F013F002EAFD6 /* php.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA93E182F013F002EAFD6 /* php.plist */; };
+		DA7EA995182F013F002EAFD6 /* plist.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA93F182F013F002EAFD6 /* plist.plist */; };
+		DA7EA996182F013F002EAFD6 /* postscript.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA940182F013F002EAFD6 /* postscript.plist */; };
+		DA7EA997182F013F002EAFD6 /* prolog.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA941182F013F002EAFD6 /* prolog.plist */; };
+		DA7EA998182F013F002EAFD6 /* python.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA942182F013F002EAFD6 /* python.plist */; };
+		DA7EA999182F013F002EAFD6 /* r.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA943182F013F002EAFD6 /* r.plist */; };
+		DA7EA99A182F013F002EAFD6 /* rhtml.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA944182F013F002EAFD6 /* rhtml.plist */; };
+		DA7EA99B182F013F002EAFD6 /* ruby.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA945182F013F002EAFD6 /* ruby.plist */; };
+		DA7EA99C182F013F002EAFD6 /* scala.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA946182F013F002EAFD6 /* scala.plist */; };
+		DA7EA99D182F013F002EAFD6 /* sgml.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA947182F013F002EAFD6 /* sgml.plist */; };
+		DA7EA99E182F013F002EAFD6 /* shell.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA948182F013F002EAFD6 /* shell.plist */; };
+		DA7EA99F182F013F002EAFD6 /* sml.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA949182F013F002EAFD6 /* sml.plist */; };
+		DA7EA9A0182F013F002EAFD6 /* sql.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA94A182F013F002EAFD6 /* sql.plist */; };
+		DA7EA9A1182F013F002EAFD6 /* standard.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA94B182F013F002EAFD6 /* standard.plist */; };
+		DA7EA9A2182F013F002EAFD6 /* stata.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA94C182F013F002EAFD6 /* stata.plist */; };
+		DA7EA9A3182F013F002EAFD6 /* supercollider.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA94D182F013F002EAFD6 /* supercollider.plist */; };
+		DA7EA9A4182F013F002EAFD6 /* tcltk.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA94E182F013F002EAFD6 /* tcltk.plist */; };
+		DA7EA9A5182F013F002EAFD6 /* torquescript.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA94F182F013F002EAFD6 /* torquescript.plist */; };
+		DA7EA9A6182F013F002EAFD6 /* udo.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA950182F013F002EAFD6 /* udo.plist */; };
+		DA7EA9A7182F013F002EAFD6 /* vb.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA951182F013F002EAFD6 /* vb.plist */; };
+		DA7EA9A8182F013F002EAFD6 /* verilog.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA952182F013F002EAFD6 /* verilog.plist */; };
+		DA7EA9A9182F013F002EAFD6 /* vhdl.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA953182F013F002EAFD6 /* vhdl.plist */; };
+		DA7EA9AA182F013F002EAFD6 /* xml.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA954182F013F002EAFD6 /* xml.plist */; };
+		DA7EA9AB182F013F002EAFD6 /* SyntaxDefinitions.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7EA955182F013F002EAFD6 /* SyntaxDefinitions.plist */; };
+		DA7EAB3F182F7949002EAFD6 /* MGSFragaria.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA7EAB3E182F7949002EAFD6 /* MGSFragaria.framework */; };
+		DA8827CC17E33A9600AA08B5 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8827CA17E33A9600AA08B5 /* IndexViewController.m */; };
+		DA8827CD17E33A9600AA08B5 /* IndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8827CB17E33A9600AA08B5 /* IndexViewController.xib */; };
+		DA89E323178D482E002D02D3 /* BASIC_README in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E2E6178D47E8002D02D3 /* BASIC_README */; };
+		DA89E325178D482E002D02D3 /* glogin.sql in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E2E8178D47E8002D02D3 /* glogin.sql */; };
+		DA89E326178D482E002D02D3 /* libclntsh.dylib.11.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E2E9178D47E8002D02D3 /* libclntsh.dylib.11.1 */; };
+		DA89E327178D482E002D02D3 /* libnnz11.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E2EA178D47E8002D02D3 /* libnnz11.dylib */; };
+		DA89E328178D482E002D02D3 /* libocci.dylib.11.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E2EB178D47E8002D02D3 /* libocci.dylib.11.1 */; };
+		DA89E329178D482E002D02D3 /* libociei.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E2EC178D47E8002D02D3 /* libociei.dylib */; };
+		DA89E32A178D482E002D02D3 /* libocijdbc11.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E2ED178D47E8002D02D3 /* libocijdbc11.dylib */; };
+		DA89E32B178D482E002D02D3 /* libocilib.3.12.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E2EE178D47E8002D02D3 /* libocilib.3.12.1.dylib */; };
+		DA89E32C178D482E002D02D3 /* libsqlplus.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E2EF178D47E8002D02D3 /* libsqlplus.dylib */; };
+		DA89E32D178D482E002D02D3 /* libsqlplusic.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E2F0178D47E8002D02D3 /* libsqlplusic.dylib */; };
+		DA89E32E178D482E002D02D3 /* ojdbc5.jar in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E2F1178D47E8002D02D3 /* ojdbc5.jar */; };
+		DA89E32F178D482E002D02D3 /* ojdbc6.jar in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E2F2178D47E8002D02D3 /* ojdbc6.jar */; };
+		DA89E330178D482E002D02D3 /* patch.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E2F3178D47E8002D02D3 /* patch.sh */; };
+		DA89E332178D482E002D02D3 /* SQLPLUS_README in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E31F178D47E9002D02D3 /* SQLPLUS_README */; };
+		DA89E334178D482E002D02D3 /* xstreams.jar in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA89E321178D47E9002D02D3 /* xstreams.jar */; };
+		DA89E335178D483E002D02D3 /* libocilib.3.12.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA89E2EE178D47E8002D02D3 /* libocilib.3.12.1.dylib */; };
+		DACB3005186E0D5100B9FCDC /* PasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACB3004186E0D5100B9FCDC /* PasswordView.xib */; };
+		DACB3007186E143600B9FCDC /* PasswordSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACB3006186E143600B9FCDC /* PasswordSheet.xib */; };
+		DACD480919F9B49800AA0AF8 /* 024.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47BA19F9B49800AA0AF8 /* 024.png */; };
+		DACD480A19F9B49800AA0AF8 /* 1369241028_arrow_circle_double.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47BB19F9B49800AA0AF8 /* 1369241028_arrow_circle_double.png */; };
+		DACD480B19F9B49800AA0AF8 /* 1388528327_sync.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47BC19F9B49800AA0AF8 /* 1388528327_sync.png */; };
+		DACD480C19F9B49800AA0AF8 /* application-dock-270.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47BD19F9B49800AA0AF8 /* application-dock-270.png */; };
+		DACD480D19F9B49800AA0AF8 /* application-sidebar-expand.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47BE19F9B49800AA0AF8 /* application-sidebar-expand.png */; };
+		DACD480E19F9B49800AA0AF8 /* application-terminal.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47BF19F9B49800AA0AF8 /* application-terminal.png */; };
+		DACD480F19F9B49800AA0AF8 /* application_view_list.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47C019F9B49800AA0AF8 /* application_view_list.png */; };
+		DACD481019F9B49800AA0AF8 /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47C119F9B49800AA0AF8 /* block.png */; };
+		DACD481119F9B49800AA0AF8 /* blue-documen-sql.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47C219F9B49800AA0AF8 /* blue-documen-sql.png */; };
+		DACD481219F9B49800AA0AF8 /* blue-document--minus.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47C319F9B49800AA0AF8 /* blue-document--minus.png */; };
+		DACD481319F9B49800AA0AF8 /* blue-document--plus.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47C419F9B49800AA0AF8 /* blue-document--plus.png */; };
+		DACD481419F9B49800AA0AF8 /* blue-document-block.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47C519F9B49800AA0AF8 /* blue-document-block.png */; };
+		DACD481519F9B49800AA0AF8 /* blue-document-insert.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47C619F9B49800AA0AF8 /* blue-document-insert.png */; };
+		DACD481619F9B49800AA0AF8 /* category.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47C719F9B49800AA0AF8 /* category.png */; };
+		DACD481719F9B49800AA0AF8 /* clipboard-sign-out.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47C819F9B49800AA0AF8 /* clipboard-sign-out.png */; };
+		DACD481819F9B49800AA0AF8 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47C919F9B49800AA0AF8 /* close.png */; };
+		DACD481919F9B49800AA0AF8 /* cross-script.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47CA19F9B49800AA0AF8 /* cross-script.png */; };
+		DACD481A19F9B49800AA0AF8 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47CB19F9B49800AA0AF8 /* cross.png */; };
+		DACD481B19F9B49800AA0AF8 /* Data-Database-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47CC19F9B49800AA0AF8 /* Data-Database-icon.png */; };
+		DACD481C19F9B49800AA0AF8 /* database--arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47CD19F9B49800AA0AF8 /* database--arrow.png */; };
+		DACD481D19F9B49800AA0AF8 /* database--minus.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47CE19F9B49800AA0AF8 /* database--minus.png */; };
+		DACD481E19F9B49800AA0AF8 /* database--pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47CF19F9B49800AA0AF8 /* database--pencil.png */; };
+		DACD481F19F9B49800AA0AF8 /* database--plus.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47D019F9B49800AA0AF8 /* database--plus.png */; };
+		DACD482019F9B49800AA0AF8 /* database-cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47D119F9B49800AA0AF8 /* database-cloud.png */; };
+		DACD482119F9B49800AA0AF8 /* database-export.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47D219F9B49800AA0AF8 /* database-export.png */; };
+		DACD482219F9B49800AA0AF8 /* database-medium.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47D319F9B49800AA0AF8 /* database-medium.png */; };
+		DACD482319F9B49800AA0AF8 /* database-sql.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47D419F9B49800AA0AF8 /* database-sql.png */; };
+		DACD482419F9B49800AA0AF8 /* database.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47D519F9B49800AA0AF8 /* database.png */; };
+		DACD482519F9B49800AA0AF8 /* databasebw.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47D619F9B49800AA0AF8 /* databasebw.png */; };
+		DACD482619F9B49800AA0AF8 /* databasebww.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47D719F9B49800AA0AF8 /* databasebww.png */; };
+		DACD482719F9B49800AA0AF8 /* databasenn.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47D819F9B49800AA0AF8 /* databasenn.png */; };
+		DACD482819F9B49800AA0AF8 /* db.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47D919F9B49800AA0AF8 /* db.png */; };
+		DACD482919F9B49800AA0AF8 /* disk-black.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47DA19F9B49800AA0AF8 /* disk-black.png */; };
+		DACD482A19F9B49800AA0AF8 /* document-table.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47DB19F9B49800AA0AF8 /* document-table.png */; };
+		DACD482B19F9B49800AA0AF8 /* Document.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47DC19F9B49800AA0AF8 /* Document.png */; };
+		DACD482C19F9B49800AA0AF8 /* fnodc.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47DD19F9B49800AA0AF8 /* fnodc.png */; };
+		DACD482D19F9B49800AA0AF8 /* icon-cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47DE19F9B49800AA0AF8 /* icon-cloud.png */; };
+		DACD482E19F9B49800AA0AF8 /* icon-cloudsync.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47DF19F9B49800AA0AF8 /* icon-cloudsync.png */; };
+		DACD482F19F9B49800AA0AF8 /* icon-cmd.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47E019F9B49800AA0AF8 /* icon-cmd.png */; };
+		DACD483019F9B49800AA0AF8 /* icon-copy.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47E119F9B49800AA0AF8 /* icon-copy.png */; };
+		DACD483119F9B49800AA0AF8 /* icon-databas11.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47E219F9B49800AA0AF8 /* icon-databas11.png */; };
+		DACD483219F9B49800AA0AF8 /* icon-databas14.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47E319F9B49800AA0AF8 /* icon-databas14.png */; };
+		DACD483319F9B49800AA0AF8 /* icon-databas15.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47E419F9B49800AA0AF8 /* icon-databas15.png */; };
+		DACD483419F9B49800AA0AF8 /* icon-database.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47E519F9B49800AA0AF8 /* icon-database.png */; };
+		DACD483519F9B49800AA0AF8 /* icon-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47E619F9B49800AA0AF8 /* icon-refresh.png */; };
+		DACD483619F9B49800AA0AF8 /* layout-select-footer.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47E719F9B49800AA0AF8 /* layout-select-footer.png */; };
+		DACD483719F9B49800AA0AF8 /* layout-select-sidebar.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47E819F9B49800AA0AF8 /* layout-select-sidebar.png */; };
+		DACD483819F9B49800AA0AF8 /* lightning.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47E919F9B49800AA0AF8 /* lightning.png */; };
+		DACD483919F9B49800AA0AF8 /* PagesView3.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47EA19F9B49800AA0AF8 /* PagesView3.png */; };
+		DACD483A19F9B49800AA0AF8 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47EB19F9B49800AA0AF8 /* play.png */; };
+		DACD483B19F9B49800AA0AF8 /* reload-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47EC19F9B49800AA0AF8 /* reload-icon.png */; };
+		DACD483C19F9B49800AA0AF8 /* run-script.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47ED19F9B49800AA0AF8 /* run-script.png */; };
+		DACD483D19F9B49800AA0AF8 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47EE19F9B49800AA0AF8 /* start.png */; };
+		DACD483E19F9B49800AA0AF8 /* stock_data_new_sql_query.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47EF19F9B49800AA0AF8 /* stock_data_new_sql_query.png */; };
+		DACD483F19F9B49800AA0AF8 /* stock_function_autopilot.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47F019F9B49800AA0AF8 /* stock_function_autopilot.png */; };
+		DACD484019F9B49800AA0AF8 /* stock_insert_index_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47F119F9B49800AA0AF8 /* stock_insert_index_marker.png */; };
+		DACD484119F9B49800AA0AF8 /* tabBarItem1.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47F219F9B49800AA0AF8 /* tabBarItem1.png */; };
+		DACD484219F9B49800AA0AF8 /* tabBarItem3.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47F319F9B49800AA0AF8 /* tabBarItem3.png */; };
+		DACD484319F9B49800AA0AF8 /* table--minus.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47F419F9B49800AA0AF8 /* table--minus.png */; };
+		DACD484419F9B49800AA0AF8 /* table--pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47F519F9B49800AA0AF8 /* table--pencil.png */; };
+		DACD484519F9B49800AA0AF8 /* table--plus.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47F619F9B49800AA0AF8 /* table--plus.png */; };
+		DACD484619F9B49800AA0AF8 /* table-big.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47F719F9B49800AA0AF8 /* table-big.png */; };
+		DACD484719F9B49800AA0AF8 /* table-delete-column.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47F819F9B49800AA0AF8 /* table-delete-column.png */; };
+		DACD484819F9B49800AA0AF8 /* table-delete-row.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47F919F9B49800AA0AF8 /* table-delete-row.png */; };
+		DACD484919F9B49800AA0AF8 /* table-delete.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47FA19F9B49800AA0AF8 /* table-delete.png */; };
+		DACD484A19F9B49800AA0AF8 /* table-draw.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47FB19F9B49800AA0AF8 /* table-draw.png */; };
+		DACD484B19F9B49800AA0AF8 /* table-export.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47FC19F9B49800AA0AF8 /* table-export.png */; };
+		DACD484C19F9B49800AA0AF8 /* table-import.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47FD19F9B49800AA0AF8 /* table-import.png */; };
+		DACD484D19F9B49800AA0AF8 /* table-insert-column.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47FE19F9B49800AA0AF8 /* table-insert-column.png */; };
+		DACD484E19F9B49800AA0AF8 /* table-insert-row.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD47FF19F9B49800AA0AF8 /* table-insert-row.png */; };
+		DACD484F19F9B49800AA0AF8 /* table-select.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD480019F9B49800AA0AF8 /* table-select.png */; };
+		DACD485019F9B49800AA0AF8 /* table.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD480119F9B49800AA0AF8 /* table.png */; };
+		DACD485119F9B49800AA0AF8 /* table_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD480219F9B49800AA0AF8 /* table_plus.png */; };
+		DACD485219F9B49800AA0AF8 /* tablebw.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD480319F9B49800AA0AF8 /* tablebw.png */; };
+		DACD485319F9B49800AA0AF8 /* tick-big.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD480419F9B49800AA0AF8 /* tick-big.png */; };
+		DACD485419F9B49800AA0AF8 /* tick-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD480519F9B49800AA0AF8 /* tick-circle.png */; };
+		DACD485519F9B49800AA0AF8 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD480619F9B49800AA0AF8 /* tick.png */; };
+		DACD485619F9B49800AA0AF8 /* ui-menu-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD480719F9B49800AA0AF8 /* ui-menu-blue.png */; };
+		DACD485719F9B49800AA0AF8 /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD480819F9B49800AA0AF8 /* view.png */; };
+		DACD485919F9B50600AA0AF8 /* application-dock-180.png in Resources */ = {isa = PBXBuildFile; fileRef = DACD485819F9B50600AA0AF8 /* application-dock-180.png */; };
+		DAE460A417E5C4C100912690 /* TestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE460A317E5C4C100912690 /* TestController.xib */; };
+		DAE460A717E5C4DB00912690 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE460A617E5C4DB00912690 /* TestViewController.m */; };
+		DAE460AA17E85DB900912690 /* ViewCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE460A917E85DB800912690 /* ViewCellView.m */; };
+		DAE460AD17E8AF7000912690 /* TypeViewClt.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE460AC17E8AF7000912690 /* TypeViewClt.m */; };
+		DAE460AF17E8AF8100912690 /* TypeViewClt.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE460AE17E8AF8000912690 /* TypeViewClt.xib */; };
+		DAE460B117E8B4C700912690 /* IndexViewClt.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE460B017E8B4C700912690 /* IndexViewClt.xib */; };
+		DAE460B417E8B4D500912690 /* IndexViewClt.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE460B317E8B4D500912690 /* IndexViewClt.m */; };
+		DAE460C517EF2D0C00912690 /* TypeCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE460C417EF2D0B00912690 /* TypeCellView.m */; };
+		DAE460C817F1F6E200912690 /* ViewTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE460C717F1F6E100912690 /* ViewTableDelegate.m */; };
+		DAE460CA17F23A5D00912690 /* Sheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE460C917F23A5A00912690 /* Sheet.xib */; };
+		DAE460CF17F5859C00912690 /* DepCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE460CE17F5859A00912690 /* DepCellView.m */; };
+		DAE460D117FAE09900912690 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE460D017FAE09900912690 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD8E5A421703102B00329E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8E5A161703102B00329E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8E5A1D1703102B00329E65;
+			remoteInfo = Nora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA7EA8FC182EFFB4002EAFD6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DA7EAB3F182F7949002EAFD6 /* MGSFragaria.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA89E2E4178D47A3002D02D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DA89E323178D482E002D02D3 /* BASIC_README in CopyFiles */,
+				DA89E325178D482E002D02D3 /* glogin.sql in CopyFiles */,
+				DA89E326178D482E002D02D3 /* libclntsh.dylib.11.1 in CopyFiles */,
+				DA89E327178D482E002D02D3 /* libnnz11.dylib in CopyFiles */,
+				DA89E328178D482E002D02D3 /* libocci.dylib.11.1 in CopyFiles */,
+				DA89E329178D482E002D02D3 /* libociei.dylib in CopyFiles */,
+				DA89E32A178D482E002D02D3 /* libocijdbc11.dylib in CopyFiles */,
+				DA89E32B178D482E002D02D3 /* libocilib.3.12.1.dylib in CopyFiles */,
+				DA89E32C178D482E002D02D3 /* libsqlplus.dylib in CopyFiles */,
+				DA89E32D178D482E002D02D3 /* libsqlplusic.dylib in CopyFiles */,
+				DA89E32E178D482E002D02D3 /* ojdbc5.jar in CopyFiles */,
+				DA89E32F178D482E002D02D3 /* ojdbc6.jar in CopyFiles */,
+				DA89E330178D482E002D02D3 /* patch.sh in CopyFiles */,
+				DA89E332178D482E002D02D3 /* SQLPLUS_README in CopyFiles */,
+				DA89E334178D482E002D02D3 /* xstreams.jar in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD029D3117422AEC00569F38 /* NOError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOError.h; sourceTree = "<group>"; };
+		CD029D3217422AEC00569F38 /* NOError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOError.m; sourceTree = "<group>"; };
+		CD043CFE174DE3C8009DA526 /* NOColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOColumn.h; sourceTree = "<group>"; };
+		CD043CFF174DE3C8009DA526 /* NOColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOColumn.m; sourceTree = "<group>"; };
+		CD043D03174DFF07009DA526 /* NOTempObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOTempObject.h; sourceTree = "<group>"; };
+		CD043D04174DFF07009DA526 /* NOTempObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOTempObject.m; sourceTree = "<group>"; };
+		CD0A20F617536E0300722CE4 /* ColumnCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnCellView.h; sourceTree = "<group>"; };
+		CD0A20F717536E0300722CE4 /* ColumnCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnCellView.m; sourceTree = "<group>"; };
+		CD2F34961714968700A78744 /* DMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTabBar.h; sourceTree = "<group>"; };
+		CD2F34971714968700A78744 /* DMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTabBar.m; sourceTree = "<group>"; };
+		CD2F34981714968700A78744 /* DMTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTabBarItem.h; sourceTree = "<group>"; };
+		CD2F34991714968700A78744 /* DMTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTabBarItem.m; sourceTree = "<group>"; };
+		CD2F34A81715D01800A78744 /* ocilib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocilib.h; sourceTree = "<group>"; };
+		CD38A10B172A6B2B00AD15EA /* TableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableController.h; sourceTree = "<group>"; };
+		CD38A10C172A6B2B00AD15EA /* TableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableController.m; sourceTree = "<group>"; };
+		CD38A10D172A6B2B00AD15EA /* TableController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableController.xib; sourceTree = "<group>"; };
+		CD38A112172BBE3400AD15EA /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		CD38A113172BBE3400AD15EA /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		CD57595D177D88A300B10BF5 /* IndexCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexCellView.h; sourceTree = "<group>"; };
+		CD57595E177D88A300B10BF5 /* IndexCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexCellView.m; sourceTree = "<group>"; };
+		CD575960177EF57500B10BF5 /* ConstraintCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintCellView.h; sourceTree = "<group>"; };
+		CD575961177EF57500B10BF5 /* ConstraintCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintCellView.m; sourceTree = "<group>"; };
+		CD6049FA173949CE0035E779 /* PSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTableView.h; sourceTree = "<group>"; };
+		CD6049FB173949CE0035E779 /* PSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTableView.m; sourceTree = "<group>"; };
+		CD8E5A1E1703102B00329E65 /* Nora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8E5A211703102B00329E65 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD8E5A241703102B00329E65 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD8E5A251703102B00329E65 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD8E5A261703102B00329E65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD8E5A291703102B00329E65 /* Nora-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nora-Info.plist"; sourceTree = "<group>"; };
+		CD8E5A2B1703102B00329E65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD8E5A2D1703102B00329E65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD8E5A2F1703102B00329E65 /* Nora-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nora-Prefix.pch"; sourceTree = "<group>"; };
+		CD8E5A311703102B00329E65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CD8E5A331703102B00329E65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD8E5A341703102B00329E65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD8E5A371703102B00329E65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD8E5A3E1703102B00329E65 /* NoraTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoraTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8E5A3F1703102B00329E65 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD8E5A461703102B00329E65 /* NoraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoraTests-Info.plist"; sourceTree = "<group>"; };
+		CD8E5A481703102B00329E65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD8E5A4A1703102B00329E65 /* NoraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoraTests.h; sourceTree = "<group>"; };
+		CD8E5A4B1703102B00329E65 /* NoraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoraTests.m; sourceTree = "<group>"; };
+		CD8E5A571703108600329E65 /* PXSourceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSourceList.h; sourceTree = "<group>"; };
+		CD8E5A581703108600329E65 /* PXSourceList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXSourceList.m; sourceTree = "<group>"; };
+		CD8E5A591703108600329E65 /* PXSourceListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSourceListDataSource.h; sourceTree = "<group>"; };
+		CD8E5A5A1703108600329E65 /* PXSourceListDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXSourceListDelegate.h; sourceTree = "<group>"; };
+		CD8E5A5D170310A400329E65 /* SourceListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceListItem.h; sourceTree = "<group>"; };
+		CD8E5A5E170310A400329E65 /* SourceListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceListItem.m; sourceTree = "<group>"; };
+		CD8E5A60170314BA00329E65 /* ColorGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorGradientView.h; sourceTree = "<group>"; };
+		CD8E5A61170314BA00329E65 /* ColorGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorGradientView.m; sourceTree = "<group>"; };
+		CD8E5A6317031DB600329E65 /* ConnectionViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionViewViewController.h; sourceTree = "<group>"; };
+		CD8E5A6417031DB600329E65 /* ConnectionViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionViewViewController.m; sourceTree = "<group>"; };
+		CD8E5A6517031DB600329E65 /* ConnectionViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectionViewViewController.xib; sourceTree = "<group>"; };
+		CD8E5A681703295C00329E65 /* QueryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryController.h; sourceTree = "<group>"; };
+		CD8E5A691703295C00329E65 /* QueryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryController.m; sourceTree = "<group>"; };
+		CD8E5A6A1703295C00329E65 /* QueryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QueryController.xib; sourceTree = "<group>"; };
+		CD93F47A17688618004104B6 /* ColorGradWithShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorGradWithShadow.h; sourceTree = "<group>"; };
+		CD93F47B17688618004104B6 /* ColorGradWithShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorGradWithShadow.m; sourceTree = "<group>"; };
+		CDD064831722AACF00F550FB /* TableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewViewController.h; sourceTree = "<group>"; };
+		CDD064841722AACF00F550FB /* TableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewViewController.m; sourceTree = "<group>"; };
+		CDD064851722AACF00F550FB /* TableViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewViewController.xib; sourceTree = "<group>"; };
+		CDE7177C175CA5570044EFD4 /* DataTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableController.h; sourceTree = "<group>"; };
+		CDE7177D175CA5570044EFD4 /* DataTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableController.m; sourceTree = "<group>"; };
+		CDE7177F175CA6230044EFD4 /* DataTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableView.h; sourceTree = "<group>"; };
+		CDE71780175CA6230044EFD4 /* DataTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableView.m; sourceTree = "<group>"; };
+		CDE71782175F5AFD0044EFD4 /* TablePropertiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablePropertiesViewController.h; sourceTree = "<group>"; };
+		CDE71783175F5AFE0044EFD4 /* TablePropertiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablePropertiesViewController.m; sourceTree = "<group>"; };
+		CDE71784175F5AFE0044EFD4 /* TablePropertiesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TablePropertiesViewController.xib; sourceTree = "<group>"; };
+		CDFE6818171727A3008DCC17 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		CDFE6819171727A3008DCC17 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		DA1DCF05180D18E100DA1FC0 /* Nora.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Nora.entitlements; sourceTree = "<group>"; };
+		DA637E44180195DA00C52261 /* nora.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = nora.iconset; sourceTree = "<group>"; };
+		DA6E9BE7187B055D0082F3D5 /* BindSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BindSheet.xib; sourceTree = "<group>"; };
+		DA7EA8F2182EFC0A002EAFD6 /* MGSFragaria.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MGSFragaria.framework; sourceTree = "<group>"; };
+		DA7EA900182F013F002EAFD6 /* actionscript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript.plist; sourceTree = "<group>"; };
+		DA7EA901182F013F002EAFD6 /* actionscript3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionscript3.plist; sourceTree = "<group>"; };
+		DA7EA902182F013F002EAFD6 /* active4d.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = active4d.plist; sourceTree = "<group>"; };
+		DA7EA903182F013F002EAFD6 /* ada.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ada.plist; sourceTree = "<group>"; };
+		DA7EA904182F013F002EAFD6 /* ampl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ampl.plist; sourceTree = "<group>"; };
+		DA7EA905182F013F002EAFD6 /* apache.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apache.plist; sourceTree = "<group>"; };
+		DA7EA906182F013F002EAFD6 /* applescript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = applescript.plist; sourceTree = "<group>"; };
+		DA7EA907182F013F002EAFD6 /* asm-mips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asm-mips.plist"; sourceTree = "<group>"; };
+		DA7EA908182F013F002EAFD6 /* asm-x86.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asm-x86.plist"; sourceTree = "<group>"; };
+		DA7EA909182F013F002EAFD6 /* asp-js.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asp-js.plist"; sourceTree = "<group>"; };
+		DA7EA90A182F013F002EAFD6 /* asp-vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "asp-vb.plist"; sourceTree = "<group>"; };
+		DA7EA90B182F013F002EAFD6 /* aspdotnet-cs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "aspdotnet-cs.plist"; sourceTree = "<group>"; };
+		DA7EA90C182F013F002EAFD6 /* aspdotnet-vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "aspdotnet-vb.plist"; sourceTree = "<group>"; };
+		DA7EA90D182F013F002EAFD6 /* awk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = awk.plist; sourceTree = "<group>"; };
+		DA7EA90E182F013F002EAFD6 /* batch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = batch.plist; sourceTree = "<group>"; };
+		DA7EA90F182F013F002EAFD6 /* c.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = c.plist; sourceTree = "<group>"; };
+		DA7EA910182F013F002EAFD6 /* cobol.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cobol.plist; sourceTree = "<group>"; };
+		DA7EA911182F013F002EAFD6 /* coffeescript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = coffeescript.plist; sourceTree = "<group>"; };
+		DA7EA912182F013F002EAFD6 /* coldfusion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = coldfusion.plist; sourceTree = "<group>"; };
+		DA7EA913182F013F002EAFD6 /* cpp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cpp.plist; sourceTree = "<group>"; };
+		DA7EA914182F013F002EAFD6 /* csharp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = csharp.plist; sourceTree = "<group>"; };
+		DA7EA915182F013F002EAFD6 /* csound.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = csound.plist; sourceTree = "<group>"; };
+		DA7EA916182F013F002EAFD6 /* css.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = css.plist; sourceTree = "<group>"; };
+		DA7EA917182F013F002EAFD6 /* d.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = d.plist; sourceTree = "<group>"; };
+		DA7EA918182F013F002EAFD6 /* dylan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dylan.plist; sourceTree = "<group>"; };
+		DA7EA919182F013F002EAFD6 /* eiffel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = eiffel.plist; sourceTree = "<group>"; };
+		DA7EA91A182F013F002EAFD6 /* erl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = erl.plist; sourceTree = "<group>"; };
+		DA7EA91B182F013F002EAFD6 /* eztpl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = eztpl.plist; sourceTree = "<group>"; };
+		DA7EA91C182F013F002EAFD6 /* f-script.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "f-script.plist"; sourceTree = "<group>"; };
+		DA7EA91D182F013F002EAFD6 /* fortran.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fortran.plist; sourceTree = "<group>"; };
+		DA7EA91E182F013F002EAFD6 /* freefem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = freefem.plist; sourceTree = "<group>"; };
+		DA7EA91F182F013F002EAFD6 /* gedcom.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gedcom.plist; sourceTree = "<group>"; };
+		DA7EA920182F013F002EAFD6 /* gnuassembler.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gnuassembler.plist; sourceTree = "<group>"; };
+		DA7EA921182F013F002EAFD6 /* graphviz.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = graphviz.plist; sourceTree = "<group>"; };
+		DA7EA922182F013F002EAFD6 /* haskell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = haskell.plist; sourceTree = "<group>"; };
+		DA7EA923182F013F002EAFD6 /* header.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = header.plist; sourceTree = "<group>"; };
+		DA7EA924182F013F002EAFD6 /* html.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = html.plist; sourceTree = "<group>"; };
+		DA7EA925182F013F002EAFD6 /* idl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = idl.plist; sourceTree = "<group>"; };
+		DA7EA926182F013F002EAFD6 /* java.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = java.plist; sourceTree = "<group>"; };
+		DA7EA927182F013F002EAFD6 /* javafx.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = javafx.plist; sourceTree = "<group>"; };
+		DA7EA928182F013F002EAFD6 /* javascript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = javascript.plist; sourceTree = "<group>"; };
+		DA7EA929182F013F002EAFD6 /* jsp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jsp.plist; sourceTree = "<group>"; };
+		DA7EA92A182F013F002EAFD6 /* latex.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = latex.plist; sourceTree = "<group>"; };
+		DA7EA92B182F013F002EAFD6 /* lilypond.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lilypond.plist; sourceTree = "<group>"; };
+		DA7EA92C182F013F002EAFD6 /* lisp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lisp.plist; sourceTree = "<group>"; };
+		DA7EA92D182F013F002EAFD6 /* logtalk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = logtalk.plist; sourceTree = "<group>"; };
+		DA7EA92E182F013F002EAFD6 /* lsl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lsl.plist; sourceTree = "<group>"; };
+		DA7EA92F182F013F002EAFD6 /* lua.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lua.plist; sourceTree = "<group>"; };
+		DA7EA930182F013F002EAFD6 /* matlab.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = matlab.plist; sourceTree = "<group>"; };
+		DA7EA931182F013F002EAFD6 /* mel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mel.plist; sourceTree = "<group>"; };
+		DA7EA932182F013F002EAFD6 /* metapost.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metapost.plist; sourceTree = "<group>"; };
+		DA7EA933182F013F002EAFD6 /* metaslang.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = metaslang.plist; sourceTree = "<group>"; };
+		DA7EA934182F013F002EAFD6 /* mysql.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mysql.plist; sourceTree = "<group>"; };
+		DA7EA935182F013F002EAFD6 /* nemerle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nemerle.plist; sourceTree = "<group>"; };
+		DA7EA936182F013F002EAFD6 /* none.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = none.plist; sourceTree = "<group>"; };
+		DA7EA937182F013F002EAFD6 /* nrnhoc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nrnhoc.plist; sourceTree = "<group>"; };
+		DA7EA938182F013F002EAFD6 /* objectivec.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = objectivec.plist; sourceTree = "<group>"; };
+		DA7EA939182F013F002EAFD6 /* objectivecaml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = objectivecaml.plist; sourceTree = "<group>"; };
+		DA7EA93A182F013F002EAFD6 /* ox.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ox.plist; sourceTree = "<group>"; };
+		DA7EA93B182F013F002EAFD6 /* pascal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pascal.plist; sourceTree = "<group>"; };
+		DA7EA93C182F013F002EAFD6 /* pdf.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pdf.plist; sourceTree = "<group>"; };
+		DA7EA93D182F013F002EAFD6 /* perl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = perl.plist; sourceTree = "<group>"; };
+		DA7EA93E182F013F002EAFD6 /* php.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = php.plist; sourceTree = "<group>"; };
+		DA7EA93F182F013F002EAFD6 /* plist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = plist.plist; sourceTree = "<group>"; };
+		DA7EA940182F013F002EAFD6 /* postscript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = postscript.plist; sourceTree = "<group>"; };
+		DA7EA941182F013F002EAFD6 /* prolog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = prolog.plist; sourceTree = "<group>"; };
+		DA7EA942182F013F002EAFD6 /* python.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = python.plist; sourceTree = "<group>"; };
+		DA7EA943182F013F002EAFD6 /* r.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = r.plist; sourceTree = "<group>"; };
+		DA7EA944182F013F002EAFD6 /* rhtml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rhtml.plist; sourceTree = "<group>"; };
+		DA7EA945182F013F002EAFD6 /* ruby.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ruby.plist; sourceTree = "<group>"; };
+		DA7EA946182F013F002EAFD6 /* scala.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scala.plist; sourceTree = "<group>"; };
+		DA7EA947182F013F002EAFD6 /* sgml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sgml.plist; sourceTree = "<group>"; };
+		DA7EA948182F013F002EAFD6 /* shell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shell.plist; sourceTree = "<group>"; };
+		DA7EA949182F013F002EAFD6 /* sml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sml.plist; sourceTree = "<group>"; };
+		DA7EA94A182F013F002EAFD6 /* sql.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sql.plist; sourceTree = "<group>"; };
+		DA7EA94B182F013F002EAFD6 /* standard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = standard.plist; sourceTree = "<group>"; };
+		DA7EA94C182F013F002EAFD6 /* stata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stata.plist; sourceTree = "<group>"; };
+		DA7EA94D182F013F002EAFD6 /* supercollider.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = supercollider.plist; sourceTree = "<group>"; };
+		DA7EA94E182F013F002EAFD6 /* tcltk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tcltk.plist; sourceTree = "<group>"; };
+		DA7EA94F182F013F002EAFD6 /* torquescript.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = torquescript.plist; sourceTree = "<group>"; };
+		DA7EA950182F013F002EAFD6 /* udo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = udo.plist; sourceTree = "<group>"; };
+		DA7EA951182F013F002EAFD6 /* vb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vb.plist; sourceTree = "<group>"; };
+		DA7EA952182F013F002EAFD6 /* verilog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = verilog.plist; sourceTree = "<group>"; };
+		DA7EA953182F013F002EAFD6 /* vhdl.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vhdl.plist; sourceTree = "<group>"; };
+		DA7EA954182F013F002EAFD6 /* xml.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = xml.plist; sourceTree = "<group>"; };
+		DA7EA955182F013F002EAFD6 /* SyntaxDefinitions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SyntaxDefinitions.plist; sourceTree = "<group>"; };
+		DA7EAA17182F0675002EAFD6 /* editor-breakpoint-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "editor-breakpoint-0.png"; path = "MGSFragaria.framework/Versions/A/Resources/editor-breakpoint-0.png"; sourceTree = "<group>"; };
+		DA7EAA18182F0675002EAFD6 /* editor-breakpoint-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "editor-breakpoint-1.png"; path = "MGSFragaria.framework/Versions/A/Resources/editor-breakpoint-1.png"; sourceTree = "<group>"; };
+		DA7EAA19182F0675002EAFD6 /* editor-breakpoint-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "editor-breakpoint-2.png"; path = "MGSFragaria.framework/Versions/A/Resources/editor-breakpoint-2.png"; sourceTree = "<group>"; };
+		DA7EAA1A182F0675002EAFD6 /* editor-breakpoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "editor-breakpoint.png"; path = "MGSFragaria.framework/Versions/A/Resources/editor-breakpoint.png"; sourceTree = "<group>"; };
+		DA7EAA1B182F0675002EAFD6 /* editor-warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "editor-warning.png"; path = "MGSFragaria.framework/Versions/A/Resources/editor-warning.png"; sourceTree = "<group>"; };
+		DA7EAA1C182F0676002EAFD6 /* ErrorPopoverView.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = ErrorPopoverView.nib; path = MGSFragaria.framework/Versions/A/Resources/ErrorPopoverView.nib; sourceTree = "<group>"; };
+		DA7EAA1D182F0676002EAFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MGSFragaria.framework/Versions/A/Resources/Info.plist; sourceTree = "<group>"; };
+		DA7EAA1E182F0676002EAFD6 /* LICENSE-2.0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = "LICENSE-2.0.txt"; path = "MGSFragaria.framework/Versions/A/Resources/LICENSE-2.0.txt"; sourceTree = "<group>"; };
+		DA7EAA1F182F0676002EAFD6 /* LICENSE.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = LICENSE.html; path = MGSFragaria.framework/Versions/A/Resources/LICENSE.html; sourceTree = "<group>"; };
+		DA7EAA20182F0676002EAFD6 /* MGSPreferencesFontsAndColours.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = MGSPreferencesFontsAndColours.nib; path = MGSFragaria.framework/Versions/A/Resources/MGSPreferencesFontsAndColours.nib; sourceTree = "<group>"; };
+		DA7EAA21182F0676002EAFD6 /* MGSPreferencesTextEditing.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = MGSPreferencesTextEditing.nib; path = MGSFragaria.framework/Versions/A/Resources/MGSPreferencesTextEditing.nib; sourceTree = "<group>"; };
+		DA7EAA22182F0676002EAFD6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = MGSFragaria.framework/Versions/A/Resources/README.md; sourceTree = "<group>"; };
+		DA7EAA23182F0676002EAFD6 /* SMLCommandResult.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = SMLCommandResult.nib; path = MGSFragaria.framework/Versions/A/Resources/SMLCommandResult.nib; sourceTree = "<group>"; };
+		DA7EAA24182F0676002EAFD6 /* SMLDetab.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = SMLDetab.nib; path = MGSFragaria.framework/Versions/A/Resources/SMLDetab.nib; sourceTree = "<group>"; };
+		DA7EAA25182F0676002EAFD6 /* SMLEntab.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = SMLEntab.nib; path = MGSFragaria.framework/Versions/A/Resources/SMLEntab.nib; sourceTree = "<group>"; };
+		DA7EAA26182F0676002EAFD6 /* SMLGoToLine.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = SMLGoToLine.nib; path = MGSFragaria.framework/Versions/A/Resources/SMLGoToLine.nib; sourceTree = "<group>"; };
+		DA7EAA27182F0676002EAFD6 /* SMLOpenPanelAccessoryView.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = SMLOpenPanelAccessoryView.nib; path = MGSFragaria.framework/Versions/A/Resources/SMLOpenPanelAccessoryView.nib; sourceTree = "<group>"; };
+		DA7EAA28182F0676002EAFD6 /* SMLRegularExpressionHelp.nib */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = SMLRegularExpressionHelp.nib; path = MGSFragaria.framework/Versions/A/Resources/SMLRegularExpressionHelp.nib; sourceTree = "<group>"; };
+		DA7EAA95182F0707002EAFD6 /* actionscript.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = actionscript.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/actionscript.plist"; sourceTree = "<group>"; };
+		DA7EAA96182F0707002EAFD6 /* actionscript3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = actionscript3.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/actionscript3.plist"; sourceTree = "<group>"; };
+		DA7EAA97182F0708002EAFD6 /* active4d.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = active4d.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/active4d.plist"; sourceTree = "<group>"; };
+		DA7EAA98182F0708002EAFD6 /* ada.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ada.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/ada.plist"; sourceTree = "<group>"; };
+		DA7EAA99182F0708002EAFD6 /* ampl.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ampl.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/ampl.plist"; sourceTree = "<group>"; };
+		DA7EAA9A182F0708002EAFD6 /* apache.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = apache.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/apache.plist"; sourceTree = "<group>"; };
+		DA7EAA9B182F0708002EAFD6 /* applescript.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = applescript.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/applescript.plist"; sourceTree = "<group>"; };
+		DA7EAA9C182F0708002EAFD6 /* asm-mips.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "asm-mips.plist"; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/asm-mips.plist"; sourceTree = "<group>"; };
+		DA7EAA9D182F0708002EAFD6 /* asm-x86.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "asm-x86.plist"; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/asm-x86.plist"; sourceTree = "<group>"; };
+		DA7EAA9E182F0708002EAFD6 /* asp-js.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "asp-js.plist"; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/asp-js.plist"; sourceTree = "<group>"; };
+		DA7EAA9F182F0708002EAFD6 /* asp-vb.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "asp-vb.plist"; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/asp-vb.plist"; sourceTree = "<group>"; };
+		DA7EAAA0182F0708002EAFD6 /* aspdotnet-cs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "aspdotnet-cs.plist"; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/aspdotnet-cs.plist"; sourceTree = "<group>"; };
+		DA7EAAA1182F0708002EAFD6 /* aspdotnet-vb.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "aspdotnet-vb.plist"; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/aspdotnet-vb.plist"; sourceTree = "<group>"; };
+		DA7EAAA2182F0708002EAFD6 /* awk.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = awk.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/awk.plist"; sourceTree = "<group>"; };
+		DA7EAAA3182F0708002EAFD6 /* batch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = batch.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/batch.plist"; sourceTree = "<group>"; };
+		DA7EAAA4182F0708002EAFD6 /* c.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = c.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/c.plist"; sourceTree = "<group>"; };
+		DA7EAAA5182F0708002EAFD6 /* cobol.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = cobol.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/cobol.plist"; sourceTree = "<group>"; };
+		DA7EAAA6182F0708002EAFD6 /* coffeescript.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = coffeescript.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/coffeescript.plist"; sourceTree = "<group>"; };
+		DA7EAAA7182F0708002EAFD6 /* coldfusion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = coldfusion.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/coldfusion.plist"; sourceTree = "<group>"; };
+		DA7EAAA8182F0708002EAFD6 /* cpp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = cpp.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/cpp.plist"; sourceTree = "<group>"; };
+		DA7EAAA9182F0708002EAFD6 /* csharp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = csharp.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/csharp.plist"; sourceTree = "<group>"; };
+		DA7EAAAA182F0708002EAFD6 /* csound.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = csound.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/csound.plist"; sourceTree = "<group>"; };
+		DA7EAAAB182F0708002EAFD6 /* css.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = css.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/css.plist"; sourceTree = "<group>"; };
+		DA7EAAAC182F0708002EAFD6 /* d.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = d.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/d.plist"; sourceTree = "<group>"; };
+		DA7EAAAD182F0708002EAFD6 /* dylan.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = dylan.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/dylan.plist"; sourceTree = "<group>"; };
+		DA7EAAAE182F0708002EAFD6 /* eiffel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = eiffel.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/eiffel.plist"; sourceTree = "<group>"; };
+		DA7EAAAF182F0708002EAFD6 /* erl.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = erl.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/erl.plist"; sourceTree = "<group>"; };
+		DA7EAAB0182F0709002EAFD6 /* eztpl.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = eztpl.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/eztpl.plist"; sourceTree = "<group>"; };
+		DA7EAAB1182F0709002EAFD6 /* f-script.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "f-script.plist"; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/f-script.plist"; sourceTree = "<group>"; };
+		DA7EAAB2182F0709002EAFD6 /* fortran.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fortran.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/fortran.plist"; sourceTree = "<group>"; };
+		DA7EAAB3182F0709002EAFD6 /* freefem.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = freefem.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/freefem.plist"; sourceTree = "<group>"; };
+		DA7EAAB4182F0709002EAFD6 /* gedcom.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = gedcom.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/gedcom.plist"; sourceTree = "<group>"; };
+		DA7EAAB5182F0709002EAFD6 /* gnuassembler.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = gnuassembler.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/gnuassembler.plist"; sourceTree = "<group>"; };
+		DA7EAAB6182F0709002EAFD6 /* graphviz.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = graphviz.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/graphviz.plist"; sourceTree = "<group>"; };
+		DA7EAAB7182F0709002EAFD6 /* haskell.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = haskell.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/haskell.plist"; sourceTree = "<group>"; };
+		DA7EAAB8182F0709002EAFD6 /* header.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = header.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/header.plist"; sourceTree = "<group>"; };
+		DA7EAAB9182F0709002EAFD6 /* html.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = html.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/html.plist"; sourceTree = "<group>"; };
+		DA7EAABA182F0709002EAFD6 /* idl.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = idl.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/idl.plist"; sourceTree = "<group>"; };
+		DA7EAABB182F0709002EAFD6 /* java.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = java.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/java.plist"; sourceTree = "<group>"; };
+		DA7EAABC182F0709002EAFD6 /* javafx.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = javafx.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/javafx.plist"; sourceTree = "<group>"; };
+		DA7EAABD182F0709002EAFD6 /* javascript.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = javascript.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/javascript.plist"; sourceTree = "<group>"; };
+		DA7EAABE182F0709002EAFD6 /* jsp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = jsp.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/jsp.plist"; sourceTree = "<group>"; };
+		DA7EAABF182F0709002EAFD6 /* latex.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = latex.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/latex.plist"; sourceTree = "<group>"; };
+		DA7EAAC0182F0709002EAFD6 /* lilypond.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = lilypond.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/lilypond.plist"; sourceTree = "<group>"; };
+		DA7EAAC1182F0709002EAFD6 /* lisp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = lisp.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/lisp.plist"; sourceTree = "<group>"; };
+		DA7EAAC2182F0709002EAFD6 /* logtalk.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = logtalk.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/logtalk.plist"; sourceTree = "<group>"; };
+		DA7EAAC3182F0709002EAFD6 /* lsl.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = lsl.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/lsl.plist"; sourceTree = "<group>"; };
+		DA7EAAC4182F0709002EAFD6 /* lua.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = lua.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/lua.plist"; sourceTree = "<group>"; };
+		DA7EAAC5182F0709002EAFD6 /* matlab.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = matlab.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/matlab.plist"; sourceTree = "<group>"; };
+		DA7EAAC6182F0709002EAFD6 /* mel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = mel.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/mel.plist"; sourceTree = "<group>"; };
+		DA7EAAC7182F0709002EAFD6 /* metapost.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = metapost.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/metapost.plist"; sourceTree = "<group>"; };
+		DA7EAAC8182F070A002EAFD6 /* metaslang.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = metaslang.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/metaslang.plist"; sourceTree = "<group>"; };
+		DA7EAAC9182F070A002EAFD6 /* mysql.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = mysql.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/mysql.plist"; sourceTree = "<group>"; };
+		DA7EAACA182F070A002EAFD6 /* nemerle.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = nemerle.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/nemerle.plist"; sourceTree = "<group>"; };
+		DA7EAACB182F070A002EAFD6 /* none.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = none.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/none.plist"; sourceTree = "<group>"; };
+		DA7EAACC182F070A002EAFD6 /* nrnhoc.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = nrnhoc.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/nrnhoc.plist"; sourceTree = "<group>"; };
+		DA7EAACD182F070A002EAFD6 /* objectivec.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = objectivec.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/objectivec.plist"; sourceTree = "<group>"; };
+		DA7EAACE182F070A002EAFD6 /* objectivecaml.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = objectivecaml.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/objectivecaml.plist"; sourceTree = "<group>"; };
+		DA7EAACF182F070A002EAFD6 /* ox.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ox.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/ox.plist"; sourceTree = "<group>"; };
+		DA7EAAD0182F070A002EAFD6 /* pascal.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pascal.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/pascal.plist"; sourceTree = "<group>"; };
+		DA7EAAD1182F070A002EAFD6 /* pdf.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pdf.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/pdf.plist"; sourceTree = "<group>"; };
+		DA7EAAD2182F070A002EAFD6 /* perl.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = perl.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/perl.plist"; sourceTree = "<group>"; };
+		DA7EAAD3182F070A002EAFD6 /* php.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = php.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/php.plist"; sourceTree = "<group>"; };
+		DA7EAAD4182F070A002EAFD6 /* plist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = plist.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/plist.plist"; sourceTree = "<group>"; };
+		DA7EAAD5182F070A002EAFD6 /* postscript.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = postscript.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/postscript.plist"; sourceTree = "<group>"; };
+		DA7EAAD6182F070A002EAFD6 /* prolog.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = prolog.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/prolog.plist"; sourceTree = "<group>"; };
+		DA7EAAD7182F070A002EAFD6 /* python.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = python.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/python.plist"; sourceTree = "<group>"; };
+		DA7EAAD8182F070A002EAFD6 /* r.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = r.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/r.plist"; sourceTree = "<group>"; };
+		DA7EAAD9182F070A002EAFD6 /* rhtml.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = rhtml.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/rhtml.plist"; sourceTree = "<group>"; };
+		DA7EAADA182F070A002EAFD6 /* ruby.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ruby.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/ruby.plist"; sourceTree = "<group>"; };
+		DA7EAADB182F070A002EAFD6 /* scala.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = scala.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/scala.plist"; sourceTree = "<group>"; };
+		DA7EAADC182F070A002EAFD6 /* sgml.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = sgml.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/sgml.plist"; sourceTree = "<group>"; };
+		DA7EAADD182F070A002EAFD6 /* shell.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = shell.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/shell.plist"; sourceTree = "<group>"; };
+		DA7EAADE182F070A002EAFD6 /* sml.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = sml.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/sml.plist"; sourceTree = "<group>"; };
+		DA7EAADF182F070A002EAFD6 /* sql.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = sql.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/sql.plist"; sourceTree = "<group>"; };
+		DA7EAAE0182F070A002EAFD6 /* standard.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = standard.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/standard.plist"; sourceTree = "<group>"; };
+		DA7EAAE1182F070A002EAFD6 /* stata.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = stata.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/stata.plist"; sourceTree = "<group>"; };
+		DA7EAAE2182F070A002EAFD6 /* supercollider.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = supercollider.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/supercollider.plist"; sourceTree = "<group>"; };
+		DA7EAAE3182F070B002EAFD6 /* tcltk.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = tcltk.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/tcltk.plist"; sourceTree = "<group>"; };
+		DA7EAAE4182F070B002EAFD6 /* torquescript.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = torquescript.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/torquescript.plist"; sourceTree = "<group>"; };
+		DA7EAAE5182F070B002EAFD6 /* udo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = udo.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/udo.plist"; sourceTree = "<group>"; };
+		DA7EAAE6182F070B002EAFD6 /* vb.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = vb.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/vb.plist"; sourceTree = "<group>"; };
+		DA7EAAE7182F070B002EAFD6 /* verilog.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = verilog.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/verilog.plist"; sourceTree = "<group>"; };
+		DA7EAAE8182F070B002EAFD6 /* vhdl.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = vhdl.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/vhdl.plist"; sourceTree = "<group>"; };
+		DA7EAAE9182F070B002EAFD6 /* xml.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = xml.plist; path = "MGSFragaria.framework/Versions/A/Resources/Syntax Definitions/xml.plist"; sourceTree = "<group>"; };
+		DA7EAB3E182F7949002EAFD6 /* MGSFragaria.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MGSFragaria.framework; sourceTree = "<group>"; };
+		DA8827C917E33A9600AA08B5 /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		DA8827CA17E33A9600AA08B5 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		DA8827CB17E33A9600AA08B5 /* IndexViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndexViewController.xib; sourceTree = "<group>"; };
+		DA89E2E6178D47E8002D02D3 /* BASIC_README */ = {isa = PBXFileReference; lastKnownFileType = text; name = BASIC_README; path = Frameworks/BASIC_README; sourceTree = "<group>"; };
+		DA89E2E8178D47E8002D02D3 /* glogin.sql */ = {isa = PBXFileReference; lastKnownFileType = text; name = glogin.sql; path = Frameworks/glogin.sql; sourceTree = "<group>"; };
+		DA89E2E9178D47E8002D02D3 /* libclntsh.dylib.11.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = libclntsh.dylib.11.1; path = Frameworks/libclntsh.dylib.11.1; sourceTree = "<group>"; };
+		DA89E2EA178D47E8002D02D3 /* libnnz11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnnz11.dylib; path = Frameworks/libnnz11.dylib; sourceTree = "<group>"; };
+		DA89E2EB178D47E8002D02D3 /* libocci.dylib.11.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = libocci.dylib.11.1; path = Frameworks/libocci.dylib.11.1; sourceTree = "<group>"; };
+		DA89E2EC178D47E8002D02D3 /* libociei.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libociei.dylib; path = Frameworks/libociei.dylib; sourceTree = "<group>"; };
+		DA89E2ED178D47E8002D02D3 /* libocijdbc11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libocijdbc11.dylib; path = Frameworks/libocijdbc11.dylib; sourceTree = "<group>"; };
+		DA89E2EE178D47E8002D02D3 /* libocilib.3.12.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libocilib.3.12.1.dylib; path = Frameworks/libocilib.3.12.1.dylib; sourceTree = "<group>"; };
+		DA89E2EF178D47E8002D02D3 /* libsqlplus.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlplus.dylib; path = Frameworks/libsqlplus.dylib; sourceTree = "<group>"; };
+		DA89E2F0178D47E8002D02D3 /* libsqlplusic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = libsqlplusic.dylib; path = Frameworks/libsqlplusic.dylib; sourceTree = "<group>"; };
+		DA89E2F1178D47E8002D02D3 /* ojdbc5.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = ojdbc5.jar; path = Frameworks/ojdbc5.jar; sourceTree = "<group>"; };
+		DA89E2F2178D47E8002D02D3 /* ojdbc6.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = ojdbc6.jar; path = Frameworks/ojdbc6.jar; sourceTree = "<group>"; };
+		DA89E2F3178D47E8002D02D3 /* patch.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = patch.sh; path = Frameworks/patch.sh; sourceTree = "<group>"; };
+		DA89E2F6178D47E9002D02D3 /* cdemo81.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cdemo81.c; sourceTree = "<group>"; };
+		DA89E2F7178D47E9002D02D3 /* demo.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = demo.mk; sourceTree = "<group>"; };
+		DA89E2F8178D47E9002D02D3 /* occidemo.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = occidemo.sql; sourceTree = "<group>"; };
+		DA89E2F9178D47E9002D02D3 /* occidemod.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = occidemod.sql; sourceTree = "<group>"; };
+		DA89E2FA178D47E9002D02D3 /* occidml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = occidml.cpp; sourceTree = "<group>"; };
+		DA89E2FB178D47E9002D02D3 /* occiobj.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = occiobj.cpp; sourceTree = "<group>"; };
+		DA89E2FC178D47E9002D02D3 /* occiobj.typ */ = {isa = PBXFileReference; lastKnownFileType = text; path = occiobj.typ; sourceTree = "<group>"; };
+		DA89E2FE178D47E9002D02D3 /* ldap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ldap.h; sourceTree = "<group>"; };
+		DA89E2FF178D47E9002D02D3 /* nzerror.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nzerror.h; sourceTree = "<group>"; };
+		DA89E300178D47E9002D02D3 /* nzt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nzt.h; sourceTree = "<group>"; };
+		DA89E301178D47E9002D02D3 /* occi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = occi.h; sourceTree = "<group>"; };
+		DA89E302178D47E9002D02D3 /* occiAQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = occiAQ.h; sourceTree = "<group>"; };
+		DA89E303178D47E9002D02D3 /* occiCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = occiCommon.h; sourceTree = "<group>"; };
+		DA89E304178D47E9002D02D3 /* occiControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = occiControl.h; sourceTree = "<group>"; };
+		DA89E305178D47E9002D02D3 /* occiData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = occiData.h; sourceTree = "<group>"; };
+		DA89E306178D47E9002D02D3 /* occiObjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = occiObjects.h; sourceTree = "<group>"; };
+		DA89E307178D47E9002D02D3 /* oci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oci.h; sourceTree = "<group>"; };
+		DA89E308178D47E9002D02D3 /* oci1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oci1.h; sourceTree = "<group>"; };
+		DA89E309178D47E9002D02D3 /* oci8dp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oci8dp.h; sourceTree = "<group>"; };
+		DA89E30A178D47E9002D02D3 /* ociap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ociap.h; sourceTree = "<group>"; };
+		DA89E30B178D47E9002D02D3 /* ociapr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ociapr.h; sourceTree = "<group>"; };
+		DA89E30C178D47E9002D02D3 /* ocidef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ocidef.h; sourceTree = "<group>"; };
+		DA89E30D178D47E9002D02D3 /* ocidem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ocidem.h; sourceTree = "<group>"; };
+		DA89E30E178D47E9002D02D3 /* ocidfn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ocidfn.h; sourceTree = "<group>"; };
+		DA89E30F178D47E9002D02D3 /* ociextp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ociextp.h; sourceTree = "<group>"; };
+		DA89E310178D47E9002D02D3 /* ocikpr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ocikpr.h; sourceTree = "<group>"; };
+		DA89E311178D47E9002D02D3 /* ocixmldb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ocixmldb.h; sourceTree = "<group>"; };
+		DA89E312178D47E9002D02D3 /* ocixstream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ocixstream.h; sourceTree = "<group>"; };
+		DA89E313178D47E9002D02D3 /* odci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = odci.h; sourceTree = "<group>"; };
+		DA89E314178D47E9002D02D3 /* oratypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oratypes.h; sourceTree = "<group>"; };
+		DA89E315178D47E9002D02D3 /* ori.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ori.h; sourceTree = "<group>"; };
+		DA89E316178D47E9002D02D3 /* orid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = orid.h; sourceTree = "<group>"; };
+		DA89E317178D47E9002D02D3 /* orl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = orl.h; sourceTree = "<group>"; };
+		DA89E318178D47E9002D02D3 /* oro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oro.h; sourceTree = "<group>"; };
+		DA89E319178D47E9002D02D3 /* ort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ort.h; sourceTree = "<group>"; };
+		DA89E31A178D47E9002D02D3 /* xa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xa.h; sourceTree = "<group>"; };
+		DA89E31B178D47E9002D02D3 /* ott */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ott; sourceTree = "<group>"; };
+		DA89E31C178D47E9002D02D3 /* ottclasses.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = ottclasses.zip; sourceTree = "<group>"; };
+		DA89E31D178D47E9002D02D3 /* SDK_README */ = {isa = PBXFileReference; lastKnownFileType = text; path = SDK_README; sourceTree = "<group>"; };
+		DA89E31F178D47E9002D02D3 /* SQLPLUS_README */ = {isa = PBXFileReference; lastKnownFileType = text; name = SQLPLUS_README; path = Frameworks/SQLPLUS_README; sourceTree = "<group>"; };
+		DA89E321178D47E9002D02D3 /* xstreams.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = xstreams.jar; path = Frameworks/xstreams.jar; sourceTree = "<group>"; };
+		DACB3004186E0D5100B9FCDC /* PasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordView.xib; sourceTree = "<group>"; };
+		DACB3006186E143600B9FCDC /* PasswordSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordSheet.xib; sourceTree = "<group>"; };
+		DACD47BA19F9B49800AA0AF8 /* 024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 024.png; sourceTree = "<group>"; };
+		DACD47BB19F9B49800AA0AF8 /* 1369241028_arrow_circle_double.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1369241028_arrow_circle_double.png; sourceTree = "<group>"; };
+		DACD47BC19F9B49800AA0AF8 /* 1388528327_sync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1388528327_sync.png; sourceTree = "<group>"; };
+		DACD47BD19F9B49800AA0AF8 /* application-dock-270.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "application-dock-270.png"; sourceTree = "<group>"; };
+		DACD47BE19F9B49800AA0AF8 /* application-sidebar-expand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "application-sidebar-expand.png"; sourceTree = "<group>"; };
+		DACD47BF19F9B49800AA0AF8 /* application-terminal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "application-terminal.png"; sourceTree = "<group>"; };
+		DACD47C019F9B49800AA0AF8 /* application_view_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = application_view_list.png; sourceTree = "<group>"; };
+		DACD47C119F9B49800AA0AF8 /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		DACD47C219F9B49800AA0AF8 /* blue-documen-sql.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-documen-sql.png"; sourceTree = "<group>"; };
+		DACD47C319F9B49800AA0AF8 /* blue-document--minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-document--minus.png"; sourceTree = "<group>"; };
+		DACD47C419F9B49800AA0AF8 /* blue-document--plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-document--plus.png"; sourceTree = "<group>"; };
+		DACD47C519F9B49800AA0AF8 /* blue-document-block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-document-block.png"; sourceTree = "<group>"; };
+		DACD47C619F9B49800AA0AF8 /* blue-document-insert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-document-insert.png"; sourceTree = "<group>"; };
+		DACD47C719F9B49800AA0AF8 /* category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = category.png; sourceTree = "<group>"; };
+		DACD47C819F9B49800AA0AF8 /* clipboard-sign-out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clipboard-sign-out.png"; sourceTree = "<group>"; };
+		DACD47C919F9B49800AA0AF8 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		DACD47CA19F9B49800AA0AF8 /* cross-script.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross-script.png"; sourceTree = "<group>"; };
+		DACD47CB19F9B49800AA0AF8 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		DACD47CC19F9B49800AA0AF8 /* Data-Database-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Data-Database-icon.png"; sourceTree = "<group>"; };
+		DACD47CD19F9B49800AA0AF8 /* database--arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "database--arrow.png"; sourceTree = "<group>"; };
+		DACD47CE19F9B49800AA0AF8 /* database--minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "database--minus.png"; sourceTree = "<group>"; };
+		DACD47CF19F9B49800AA0AF8 /* database--pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "database--pencil.png"; sourceTree = "<group>"; };
+		DACD47D019F9B49800AA0AF8 /* database--plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "database--plus.png"; sourceTree = "<group>"; };
+		DACD47D119F9B49800AA0AF8 /* database-cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "database-cloud.png"; sourceTree = "<group>"; };
+		DACD47D219F9B49800AA0AF8 /* database-export.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "database-export.png"; sourceTree = "<group>"; };
+		DACD47D319F9B49800AA0AF8 /* database-medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "database-medium.png"; sourceTree = "<group>"; };
+		DACD47D419F9B49800AA0AF8 /* database-sql.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "database-sql.png"; sourceTree = "<group>"; };
+		DACD47D519F9B49800AA0AF8 /* database.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = database.png; sourceTree = "<group>"; };
+		DACD47D619F9B49800AA0AF8 /* databasebw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = databasebw.png; sourceTree = "<group>"; };
+		DACD47D719F9B49800AA0AF8 /* databasebww.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = databasebww.png; sourceTree = "<group>"; };
+		DACD47D819F9B49800AA0AF8 /* databasenn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = databasenn.png; sourceTree = "<group>"; };
+		DACD47D919F9B49800AA0AF8 /* db.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db.png; sourceTree = "<group>"; };
+		DACD47DA19F9B49800AA0AF8 /* disk-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disk-black.png"; sourceTree = "<group>"; };
+		DACD47DB19F9B49800AA0AF8 /* document-table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "document-table.png"; sourceTree = "<group>"; };
+		DACD47DC19F9B49800AA0AF8 /* Document.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Document.png; sourceTree = "<group>"; };
+		DACD47DD19F9B49800AA0AF8 /* fnodc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fnodc.png; sourceTree = "<group>"; };
+		DACD47DE19F9B49800AA0AF8 /* icon-cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-cloud.png"; sourceTree = "<group>"; };
+		DACD47DF19F9B49800AA0AF8 /* icon-cloudsync.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-cloudsync.png"; sourceTree = "<group>"; };
+		DACD47E019F9B49800AA0AF8 /* icon-cmd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-cmd.png"; sourceTree = "<group>"; };
+		DACD47E119F9B49800AA0AF8 /* icon-copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-copy.png"; sourceTree = "<group>"; };
+		DACD47E219F9B49800AA0AF8 /* icon-databas11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-databas11.png"; sourceTree = "<group>"; };
+		DACD47E319F9B49800AA0AF8 /* icon-databas14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-databas14.png"; sourceTree = "<group>"; };
+		DACD47E419F9B49800AA0AF8 /* icon-databas15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-databas15.png"; sourceTree = "<group>"; };
+		DACD47E519F9B49800AA0AF8 /* icon-database.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-database.png"; sourceTree = "<group>"; };
+		DACD47E619F9B49800AA0AF8 /* icon-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-refresh.png"; sourceTree = "<group>"; };
+		DACD47E719F9B49800AA0AF8 /* layout-select-footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layout-select-footer.png"; sourceTree = "<group>"; };
+		DACD47E819F9B49800AA0AF8 /* layout-select-sidebar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layout-select-sidebar.png"; sourceTree = "<group>"; };
+		DACD47E919F9B49800AA0AF8 /* lightning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightning.png; sourceTree = "<group>"; };
+		DACD47EA19F9B49800AA0AF8 /* PagesView3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PagesView3.png; sourceTree = "<group>"; };
+		DACD47EB19F9B49800AA0AF8 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		DACD47EC19F9B49800AA0AF8 /* reload-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reload-icon.png"; sourceTree = "<group>"; };
+		DACD47ED19F9B49800AA0AF8 /* run-script.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "run-script.png"; sourceTree = "<group>"; };
+		DACD47EE19F9B49800AA0AF8 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		DACD47EF19F9B49800AA0AF8 /* stock_data_new_sql_query.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stock_data_new_sql_query.png; sourceTree = "<group>"; };
+		DACD47F019F9B49800AA0AF8 /* stock_function_autopilot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stock_function_autopilot.png; sourceTree = "<group>"; };
+		DACD47F119F9B49800AA0AF8 /* stock_insert_index_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stock_insert_index_marker.png; sourceTree = "<group>"; };
+		DACD47F219F9B49800AA0AF8 /* tabBarItem1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarItem1.png; sourceTree = "<group>"; };
+		DACD47F319F9B49800AA0AF8 /* tabBarItem3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarItem3.png; sourceTree = "<group>"; };
+		DACD47F419F9B49800AA0AF8 /* table--minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table--minus.png"; sourceTree = "<group>"; };
+		DACD47F519F9B49800AA0AF8 /* table--pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table--pencil.png"; sourceTree = "<group>"; };
+		DACD47F619F9B49800AA0AF8 /* table--plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table--plus.png"; sourceTree = "<group>"; };
+		DACD47F719F9B49800AA0AF8 /* table-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-big.png"; sourceTree = "<group>"; };
+		DACD47F819F9B49800AA0AF8 /* table-delete-column.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-delete-column.png"; sourceTree = "<group>"; };
+		DACD47F919F9B49800AA0AF8 /* table-delete-row.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-delete-row.png"; sourceTree = "<group>"; };
+		DACD47FA19F9B49800AA0AF8 /* table-delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-delete.png"; sourceTree = "<group>"; };
+		DACD47FB19F9B49800AA0AF8 /* table-draw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-draw.png"; sourceTree = "<group>"; };
+		DACD47FC19F9B49800AA0AF8 /* table-export.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-export.png"; sourceTree = "<group>"; };
+		DACD47FD19F9B49800AA0AF8 /* table-import.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-import.png"; sourceTree = "<group>"; };
+		DACD47FE19F9B49800AA0AF8 /* table-insert-column.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-insert-column.png"; sourceTree = "<group>"; };
+		DACD47FF19F9B49800AA0AF8 /* table-insert-row.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-insert-row.png"; sourceTree = "<group>"; };
+		DACD480019F9B49800AA0AF8 /* table-select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-select.png"; sourceTree = "<group>"; };
+		DACD480119F9B49800AA0AF8 /* table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table.png; sourceTree = "<group>"; };
+		DACD480219F9B49800AA0AF8 /* table_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_plus.png; sourceTree = "<group>"; };
+		DACD480319F9B49800AA0AF8 /* tablebw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tablebw.png; sourceTree = "<group>"; };
+		DACD480419F9B49800AA0AF8 /* tick-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tick-big.png"; sourceTree = "<group>"; };
+		DACD480519F9B49800AA0AF8 /* tick-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tick-circle.png"; sourceTree = "<group>"; };
+		DACD480619F9B49800AA0AF8 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		DACD480719F9B49800AA0AF8 /* ui-menu-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ui-menu-blue.png"; sourceTree = "<group>"; };
+		DACD480819F9B49800AA0AF8 /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
+		DACD485819F9B50600AA0AF8 /* application-dock-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "application-dock-180.png"; sourceTree = "<group>"; };
+		DAE460A317E5C4C100912690 /* TestController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestController.xib; sourceTree = "<group>"; };
+		DAE460A517E5C4DA00912690 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		DAE460A617E5C4DB00912690 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		DAE460A817E85DB800912690 /* ViewCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCellView.h; sourceTree = "<group>"; };
+		DAE460A917E85DB800912690 /* ViewCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCellView.m; sourceTree = "<group>"; };
+		DAE460AB17E8AF7000912690 /* TypeViewClt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeViewClt.h; sourceTree = "<group>"; };
+		DAE460AC17E8AF7000912690 /* TypeViewClt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeViewClt.m; sourceTree = "<group>"; };
+		DAE460AE17E8AF8000912690 /* TypeViewClt.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TypeViewClt.xib; sourceTree = "<group>"; };
+		DAE460B017E8B4C700912690 /* IndexViewClt.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndexViewClt.xib; sourceTree = "<group>"; };
+		DAE460B217E8B4D500912690 /* IndexViewClt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewClt.h; sourceTree = "<group>"; };
+		DAE460B317E8B4D500912690 /* IndexViewClt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewClt.m; sourceTree = "<group>"; };
+		DAE460C317EF2D0A00912690 /* TypeCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeCellView.h; sourceTree = "<group>"; };
+		DAE460C417EF2D0B00912690 /* TypeCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeCellView.m; sourceTree = "<group>"; };
+		DAE460C617F1F6E000912690 /* ViewTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTableDelegate.h; sourceTree = "<group>"; };
+		DAE460C717F1F6E100912690 /* ViewTableDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTableDelegate.m; sourceTree = "<group>"; };
+		DAE460C917F23A5A00912690 /* Sheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Sheet.xib; sourceTree = "<group>"; };
+		DAE460CD17F5859900912690 /* DepCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepCellView.h; sourceTree = "<group>"; };
+		DAE460CE17F5859A00912690 /* DepCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepCellView.m; sourceTree = "<group>"; };
+		DAE460D017FAE09900912690 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8E5A1B1703102B00329E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE460D117FAE09900912690 /* SystemConfiguration.framework in Frameworks */,
+				DA89E335178D483E002D02D3 /* libocilib.3.12.1.dylib in Frameworks */,
+				CD8E5A221703102B00329E65 /* Cocoa.framework in Frameworks */,
+				DA7EA8F3182EFC0A002EAFD6 /* MGSFragaria.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8E5A3A1703102B00329E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E5A401703102B00329E65 /* SenTestingKit.framework in Frameworks */,
+				CD8E5A411703102B00329E65 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8E5A151703102B00329E65 = {
+			isa = PBXGroup;
+			children = (
+				DACD485A19F9B52E00AA0AF8 /* mgsfiles */,
+				DACD47B919F9B49800AA0AF8 /* images */,
+				DA7EAB3E182F7949002EAFD6 /* MGSFragaria.framework */,
+				DA7EA8FF182F013F002EAFD6 /* Syntax Definitions */,
+				DA7EA955182F013F002EAFD6 /* SyntaxDefinitions.plist */,
+				DA7EA8F2182EFC0A002EAFD6 /* MGSFragaria.framework */,
+				DA637E44180195DA00C52261 /* nora.iconset */,
+				DAE460D017FAE09900912690 /* SystemConfiguration.framework */,
+				DA89E2E6178D47E8002D02D3 /* BASIC_README */,
+				DA89E2E8178D47E8002D02D3 /* glogin.sql */,
+				DA89E2E9178D47E8002D02D3 /* libclntsh.dylib.11.1 */,
+				DA89E2EA178D47E8002D02D3 /* libnnz11.dylib */,
+				DA89E2EB178D47E8002D02D3 /* libocci.dylib.11.1 */,
+				DA89E2EC178D47E8002D02D3 /* libociei.dylib */,
+				DA89E2ED178D47E8002D02D3 /* libocijdbc11.dylib */,
+				DA89E2EE178D47E8002D02D3 /* libocilib.3.12.1.dylib */,
+				DA89E2EF178D47E8002D02D3 /* libsqlplus.dylib */,
+				DA89E2F0178D47E8002D02D3 /* libsqlplusic.dylib */,
+				DA89E2F1178D47E8002D02D3 /* ojdbc5.jar */,
+				DA89E2F2178D47E8002D02D3 /* ojdbc6.jar */,
+				DA89E2F3178D47E8002D02D3 /* patch.sh */,
+				DA89E2F4178D47E9002D02D3 /* sdk */,
+				DA89E31F178D47E9002D02D3 /* SQLPLUS_README */,
+				DA89E321178D47E9002D02D3 /* xstreams.jar */,
+				CD2F34A81715D01800A78744 /* ocilib.h */,
+				CD2F34961714968700A78744 /* DMTabBar.h */,
+				CD2F34971714968700A78744 /* DMTabBar.m */,
+				CD2F34981714968700A78744 /* DMTabBarItem.h */,
+				CD2F34991714968700A78744 /* DMTabBarItem.m */,
+				CD8E5A60170314BA00329E65 /* ColorGradientView.h */,
+				CD93F47A17688618004104B6 /* ColorGradWithShadow.h */,
+				CD93F47B17688618004104B6 /* ColorGradWithShadow.m */,
+				CD8E5A61170314BA00329E65 /* ColorGradientView.m */,
+				DAE460C617F1F6E000912690 /* ViewTableDelegate.h */,
+				DAE460C717F1F6E100912690 /* ViewTableDelegate.m */,
+				CD8E5A551703108500329E65 /* PXSourceList */,
+				CD8E5A271703102B00329E65 /* Nora */,
+				CD8E5A441703102B00329E65 /* NoraTests */,
+				CD8E5A201703102B00329E65 /* Frameworks */,
+				CD8E5A1F1703102B00329E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8E5A1F1703102B00329E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E5A1E1703102B00329E65 /* Nora.app */,
+				CD8E5A3E1703102B00329E65 /* NoraTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8E5A201703102B00329E65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E5A211703102B00329E65 /* Cocoa.framework */,
+				CD8E5A3F1703102B00329E65 /* SenTestingKit.framework */,
+				CD8E5A231703102B00329E65 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD8E5A231703102B00329E65 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E5A241703102B00329E65 /* AppKit.framework */,
+				CD8E5A251703102B00329E65 /* CoreData.framework */,
+				CD8E5A261703102B00329E65 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CD8E5A271703102B00329E65 /* Nora */ = {
+			isa = PBXGroup;
+			children = (
+				DA6E9BE7187B055D0082F3D5 /* BindSheet.xib */,
+				DACB3006186E143600B9FCDC /* PasswordSheet.xib */,
+				DA1DCF05180D18E100DA1FC0 /* Nora.entitlements */,
+				DAE460C917F23A5A00912690 /* Sheet.xib */,
+				DACB3004186E0D5100B9FCDC /* PasswordView.xib */,
+				DAE460B017E8B4C700912690 /* IndexViewClt.xib */,
+				DAE460AE17E8AF8000912690 /* TypeViewClt.xib */,
+				DAE460B217E8B4D500912690 /* IndexViewClt.h */,
+				DAE460B317E8B4D500912690 /* IndexViewClt.m */,
+				DAE460A317E5C4C100912690 /* TestController.xib */,
+				DAE460A517E5C4DA00912690 /* TestViewController.h */,
+				DAE460AB17E8AF7000912690 /* TypeViewClt.h */,
+				DAE460AC17E8AF7000912690 /* TypeViewClt.m */,
+				DAE460A617E5C4DB00912690 /* TestViewController.m */,
+				DAE460CD17F5859900912690 /* DepCellView.h */,
+				DAE460CE17F5859A00912690 /* DepCellView.m */,
+				CD38A10B172A6B2B00AD15EA /* TableController.h */,
+				DA8827C917E33A9600AA08B5 /* IndexViewController.h */,
+				DA8827CA17E33A9600AA08B5 /* IndexViewController.m */,
+				DA8827CB17E33A9600AA08B5 /* IndexViewController.xib */,
+				CD38A10C172A6B2B00AD15EA /* TableController.m */,
+				CD6049FA173949CE0035E779 /* PSTableView.h */,
+				CD6049FB173949CE0035E779 /* PSTableView.m */,
+				CD38A10D172A6B2B00AD15EA /* TableController.xib */,
+				CDE7177F175CA6230044EFD4 /* DataTableView.h */,
+				CDE71780175CA6230044EFD4 /* DataTableView.m */,
+				CD0A20F617536E0300722CE4 /* ColumnCellView.h */,
+				DAE460A817E85DB800912690 /* ViewCellView.h */,
+				DAE460C317EF2D0A00912690 /* TypeCellView.h */,
+				DAE460C417EF2D0B00912690 /* TypeCellView.m */,
+				DAE460A917E85DB800912690 /* ViewCellView.m */,
+				CD57595D177D88A300B10BF5 /* IndexCellView.h */,
+				CD575960177EF57500B10BF5 /* ConstraintCellView.h */,
+				CD575961177EF57500B10BF5 /* ConstraintCellView.m */,
+				CD57595E177D88A300B10BF5 /* IndexCellView.m */,
+				CD0A20F717536E0300722CE4 /* ColumnCellView.m */,
+				CD8E5A5D170310A400329E65 /* SourceListItem.h */,
+				CD8E5A5E170310A400329E65 /* SourceListItem.m */,
+				CD8E5A331703102B00329E65 /* AppDelegate.h */,
+				CDE7177C175CA5570044EFD4 /* DataTableController.h */,
+				CDE7177D175CA5570044EFD4 /* DataTableController.m */,
+				CD38A112172BBE3400AD15EA /* ConnectionManager.h */,
+				CD38A113172BBE3400AD15EA /* ConnectionManager.m */,
+				CD8E5A341703102B00329E65 /* AppDelegate.m */,
+				CDE71782175F5AFD0044EFD4 /* TablePropertiesViewController.h */,
+				CDE71783175F5AFE0044EFD4 /* TablePropertiesViewController.m */,
+				CDE71784175F5AFE0044EFD4 /* TablePropertiesViewController.xib */,
+				CD043D03174DFF07009DA526 /* NOTempObject.h */,
+				CD043D04174DFF07009DA526 /* NOTempObject.m */,
+				CD043CFE174DE3C8009DA526 /* NOColumn.h */,
+				CD043CFF174DE3C8009DA526 /* NOColumn.m */,
+				CD029D3117422AEC00569F38 /* NOError.h */,
+				CD029D3217422AEC00569F38 /* NOError.m */,
+				CDFE6818171727A3008DCC17 /* Connection.h */,
+				CDFE6819171727A3008DCC17 /* Connection.m */,
+				CD8E5A681703295C00329E65 /* QueryController.h */,
+				CD8E5A691703295C00329E65 /* QueryController.m */,
+				CD8E5A6A1703295C00329E65 /* QueryController.xib */,
+				CDD064831722AACF00F550FB /* TableViewViewController.h */,
+				CDD064841722AACF00F550FB /* TableViewViewController.m */,
+				CDD064851722AACF00F550FB /* TableViewViewController.xib */,
+				CD8E5A6317031DB600329E65 /* ConnectionViewViewController.h */,
+				CD8E5A6417031DB600329E65 /* ConnectionViewViewController.m */,
+				CD8E5A6517031DB600329E65 /* ConnectionViewViewController.xib */,
+				CD8E5A361703102B00329E65 /* MainMenu.xib */,
+				CD8E5A281703102B00329E65 /* Supporting Files */,
+			);
+			path = Nora;
+			sourceTree = "<group>";
+		};
+		CD8E5A281703102B00329E65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E5A291703102B00329E65 /* Nora-Info.plist */,
+				CD8E5A2A1703102B00329E65 /* InfoPlist.strings */,
+				CD8E5A2D1703102B00329E65 /* main.m */,
+				CD8E5A2F1703102B00329E65 /* Nora-Prefix.pch */,
+				CD8E5A301703102B00329E65 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD8E5A441703102B00329E65 /* NoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E5A4A1703102B00329E65 /* NoraTests.h */,
+				CD8E5A4B1703102B00329E65 /* NoraTests.m */,
+				CD8E5A451703102B00329E65 /* Supporting Files */,
+			);
+			path = NoraTests;
+			sourceTree = "<group>";
+		};
+		CD8E5A451703102B00329E65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E5A461703102B00329E65 /* NoraTests-Info.plist */,
+				CD8E5A471703102B00329E65 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD8E5A551703108500329E65 /* PXSourceList */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E5A571703108600329E65 /* PXSourceList.h */,
+				CD8E5A581703108600329E65 /* PXSourceList.m */,
+				CD8E5A591703108600329E65 /* PXSourceListDataSource.h */,
+				CD8E5A5A1703108600329E65 /* PXSourceListDelegate.h */,
+			);
+			path = PXSourceList;
+			sourceTree = "<group>";
+		};
+		DA7EA8FF182F013F002EAFD6 /* Syntax Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				DA7EA900182F013F002EAFD6 /* actionscript.plist */,
+				DA7EA901182F013F002EAFD6 /* actionscript3.plist */,
+				DA7EA902182F013F002EAFD6 /* active4d.plist */,
+				DA7EA903182F013F002EAFD6 /* ada.plist */,
+				DA7EA904182F013F002EAFD6 /* ampl.plist */,
+				DA7EA905182F013F002EAFD6 /* apache.plist */,
+				DA7EA906182F013F002EAFD6 /* applescript.plist */,
+				DA7EA907182F013F002EAFD6 /* asm-mips.plist */,
+				DA7EA908182F013F002EAFD6 /* asm-x86.plist */,
+				DA7EA909182F013F002EAFD6 /* asp-js.plist */,
+				DA7EA90A182F013F002EAFD6 /* asp-vb.plist */,
+				DA7EA90B182F013F002EAFD6 /* aspdotnet-cs.plist */,
+				DA7EA90C182F013F002EAFD6 /* aspdotnet-vb.plist */,
+				DA7EA90D182F013F002EAFD6 /* awk.plist */,
+				DA7EA90E182F013F002EAFD6 /* batch.plist */,
+				DA7EA90F182F013F002EAFD6 /* c.plist */,
+				DA7EA910182F013F002EAFD6 /* cobol.plist */,
+				DA7EA911182F013F002EAFD6 /* coffeescript.plist */,
+				DA7EA912182F013F002EAFD6 /* coldfusion.plist */,
+				DA7EA913182F013F002EAFD6 /* cpp.plist */,
+				DA7EA914182F013F002EAFD6 /* csharp.plist */,
+				DA7EA915182F013F002EAFD6 /* csound.plist */,
+				DA7EA916182F013F002EAFD6 /* css.plist */,
+				DA7EA917182F013F002EAFD6 /* d.plist */,
+				DA7EA918182F013F002EAFD6 /* dylan.plist */,
+				DA7EA919182F013F002EAFD6 /* eiffel.plist */,
+				DA7EA91A182F013F002EAFD6 /* erl.plist */,
+				DA7EA91B182F013F002EAFD6 /* eztpl.plist */,
+				DA7EA91C182F013F002EAFD6 /* f-script.plist */,
+				DA7EA91D182F013F002EAFD6 /* fortran.plist */,
+				DA7EA91E182F013F002EAFD6 /* freefem.plist */,
+				DA7EA91F182F013F002EAFD6 /* gedcom.plist */,
+				DA7EA920182F013F002EAFD6 /* gnuassembler.plist */,
+				DA7EA921182F013F002EAFD6 /* graphviz.plist */,
+				DA7EA922182F013F002EAFD6 /* haskell.plist */,
+				DA7EA923182F013F002EAFD6 /* header.plist */,
+				DA7EA924182F013F002EAFD6 /* html.plist */,
+				DA7EA925182F013F002EAFD6 /* idl.plist */,
+				DA7EA926182F013F002EAFD6 /* java.plist */,
+				DA7EA927182F013F002EAFD6 /* javafx.plist */,
+				DA7EA928182F013F002EAFD6 /* javascript.plist */,
+				DA7EA929182F013F002EAFD6 /* jsp.plist */,
+				DA7EA92A182F013F002EAFD6 /* latex.plist */,
+				DA7EA92B182F013F002EAFD6 /* lilypond.plist */,
+				DA7EA92C182F013F002EAFD6 /* lisp.plist */,
+				DA7EA92D182F013F002EAFD6 /* logtalk.plist */,
+				DA7EA92E182F013F002EAFD6 /* lsl.plist */,
+				DA7EA92F182F013F002EAFD6 /* lua.plist */,
+				DA7EA930182F013F002EAFD6 /* matlab.plist */,
+				DA7EA931182F013F002EAFD6 /* mel.plist */,
+				DA7EA932182F013F002EAFD6 /* metapost.plist */,
+				DA7EA933182F013F002EAFD6 /* metaslang.plist */,
+				DA7EA934182F013F002EAFD6 /* mysql.plist */,
+				DA7EA935182F013F002EAFD6 /* nemerle.plist */,
+				DA7EA936182F013F002EAFD6 /* none.plist */,
+				DA7EA937182F013F002EAFD6 /* nrnhoc.plist */,
+				DA7EA938182F013F002EAFD6 /* objectivec.plist */,
+				DA7EA939182F013F002EAFD6 /* objectivecaml.plist */,
+				DA7EA93A182F013F002EAFD6 /* ox.plist */,
+				DA7EA93B182F013F002EAFD6 /* pascal.plist */,
+				DA7EA93C182F013F002EAFD6 /* pdf.plist */,
+				DA7EA93D182F013F002EAFD6 /* perl.plist */,
+				DA7EA93E182F013F002EAFD6 /* php.plist */,
+				DA7EA93F182F013F002EAFD6 /* plist.plist */,
+				DA7EA940182F013F002EAFD6 /* postscript.plist */,
+				DA7EA941182F013F002EAFD6 /* prolog.plist */,
+				DA7EA942182F013F002EAFD6 /* python.plist */,
+				DA7EA943182F013F002EAFD6 /* r.plist */,
+				DA7EA944182F013F002EAFD6 /* rhtml.plist */,
+				DA7EA945182F013F002EAFD6 /* ruby.plist */,
+				DA7EA946182F013F002EAFD6 /* scala.plist */,
+				DA7EA947182F013F002EAFD6 /* sgml.plist */,
+				DA7EA948182F013F002EAFD6 /* shell.plist */,
+				DA7EA949182F013F002EAFD6 /* sml.plist */,
+				DA7EA94A182F013F002EAFD6 /* sql.plist */,
+				DA7EA94B182F013F002EAFD6 /* standard.plist */,
+				DA7EA94C182F013F002EAFD6 /* stata.plist */,
+				DA7EA94D182F013F002EAFD6 /* supercollider.plist */,
+				DA7EA94E182F013F002EAFD6 /* tcltk.plist */,
+				DA7EA94F182F013F002EAFD6 /* torquescript.plist */,
+				DA7EA950182F013F002EAFD6 /* udo.plist */,
+				DA7EA951182F013F002EAFD6 /* vb.plist */,
+				DA7EA952182F013F002EAFD6 /* verilog.plist */,
+				DA7EA953182F013F002EAFD6 /* vhdl.plist */,
+				DA7EA954182F013F002EAFD6 /* xml.plist */,
+			);
+			path = "Syntax Definitions";
+			sourceTree = "<group>";
+		};
+		DA89E2F4178D47E9002D02D3 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				DA89E2F5178D47E9002D02D3 /* demo */,
+				DA89E2FD178D47E9002D02D3 /* include */,
+				DA89E31B178D47E9002D02D3 /* ott */,
+				DA89E31C178D47E9002D02D3 /* ottclasses.zip */,
+				DA89E31D178D47E9002D02D3 /* SDK_README */,
+			);
+			name = sdk;
+			path = Frameworks/sdk;
+			sourceTree = "<group>";
+		};
+		DA89E2F5178D47E9002D02D3 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				DA89E2F6178D47E9002D02D3 /* cdemo81.c */,
+				DA89E2F7178D47E9002D02D3 /* demo.mk */,
+				DA89E2F8178D47E9002D02D3 /* occidemo.sql */,
+				DA89E2F9178D47E9002D02D3 /* occidemod.sql */,
+				DA89E2FA178D47E9002D02D3 /* occidml.cpp */,
+				DA89E2FB178D47E9002D02D3 /* occiobj.cpp */,
+				DA89E2FC178D47E9002D02D3 /* occiobj.typ */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		DA89E2FD178D47E9002D02D3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DA89E2FE178D47E9002D02D3 /* ldap.h */,
+				DA89E2FF178D47E9002D02D3 /* nzerror.h */,
+				DA89E300178D47E9002D02D3 /* nzt.h */,
+				DA89E301178D47E9002D02D3 /* occi.h */,
+				DA89E302178D47E9002D02D3 /* occiAQ.h */,
+				DA89E303178D47E9002D02D3 /* occiCommon.h */,
+				DA89E304178D47E9002D02D3 /* occiControl.h */,
+				DA89E305178D47E9002D02D3 /* occiData.h */,
+				DA89E306178D47E9002D02D3 /* occiObjects.h */,
+				DA89E307178D47E9002D02D3 /* oci.h */,
+				DA89E308178D47E9002D02D3 /* oci1.h */,
+				DA89E309178D47E9002D02D3 /* oci8dp.h */,
+				DA89E30A178D47E9002D02D3 /* ociap.h */,
+				DA89E30B178D47E9002D02D3 /* ociapr.h */,
+				DA89E30C178D47E9002D02D3 /* ocidef.h */,
+				DA89E30D178D47E9002D02D3 /* ocidem.h */,
+				DA89E30E178D47E9002D02D3 /* ocidfn.h */,
+				DA89E30F178D47E9002D02D3 /* ociextp.h */,
+				DA89E310178D47E9002D02D3 /* ocikpr.h */,
+				DA89E311178D47E9002D02D3 /* ocixmldb.h */,
+				DA89E312178D47E9002D02D3 /* ocixstream.h */,
+				DA89E313178D47E9002D02D3 /* odci.h */,
+				DA89E314178D47E9002D02D3 /* oratypes.h */,
+				DA89E315178D47E9002D02D3 /* ori.h */,
+				DA89E316178D47E9002D02D3 /* orid.h */,
+				DA89E317178D47E9002D02D3 /* orl.h */,
+				DA89E318178D47E9002D02D3 /* oro.h */,
+				DA89E319178D47E9002D02D3 /* ort.h */,
+				DA89E31A178D47E9002D02D3 /* xa.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DACD47B919F9B49800AA0AF8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DACD485819F9B50600AA0AF8 /* application-dock-180.png */,
+				DACD47BA19F9B49800AA0AF8 /* 024.png */,
+				DACD47BB19F9B49800AA0AF8 /* 1369241028_arrow_circle_double.png */,
+				DACD47BC19F9B49800AA0AF8 /* 1388528327_sync.png */,
+				DACD47BD19F9B49800AA0AF8 /* application-dock-270.png */,
+				DACD47BE19F9B49800AA0AF8 /* application-sidebar-expand.png */,
+				DACD47BF19F9B49800AA0AF8 /* application-terminal.png */,
+				DACD47C019F9B49800AA0AF8 /* application_view_list.png */,
+				DACD47C119F9B49800AA0AF8 /* block.png */,
+				DACD47C219F9B49800AA0AF8 /* blue-documen-sql.png */,
+				DACD47C319F9B49800AA0AF8 /* blue-document--minus.png */,
+				DACD47C419F9B49800AA0AF8 /* blue-document--plus.png */,
+				DACD47C519F9B49800AA0AF8 /* blue-document-block.png */,
+				DACD47C619F9B49800AA0AF8 /* blue-document-insert.png */,
+				DACD47C719F9B49800AA0AF8 /* category.png */,
+				DACD47C819F9B49800AA0AF8 /* clipboard-sign-out.png */,
+				DACD47C919F9B49800AA0AF8 /* close.png */,
+				DACD47CA19F9B49800AA0AF8 /* cross-script.png */,
+				DACD47CB19F9B49800AA0AF8 /* cross.png */,
+				DACD47CC19F9B49800AA0AF8 /* Data-Database-icon.png */,
+				DACD47CD19F9B49800AA0AF8 /* database--arrow.png */,
+				DACD47CE19F9B49800AA0AF8 /* database--minus.png */,
+				DACD47CF19F9B49800AA0AF8 /* database--pencil.png */,
+				DACD47D019F9B49800AA0AF8 /* database--plus.png */,
+				DACD47D119F9B49800AA0AF8 /* database-cloud.png */,
+				DACD47D219F9B49800AA0AF8 /* database-export.png */,
+				DACD47D319F9B49800AA0AF8 /* database-medium.png */,
+				DACD47D419F9B49800AA0AF8 /* database-sql.png */,
+				DACD47D519F9B49800AA0AF8 /* database.png */,
+				DACD47D619F9B49800AA0AF8 /* databasebw.png */,
+				DACD47D719F9B49800AA0AF8 /* databasebww.png */,
+				DACD47D819F9B49800AA0AF8 /* databasenn.png */,
+				DACD47D919F9B49800AA0AF8 /* db.png */,
+				DACD47DA19F9B49800AA0AF8 /* disk-black.png */,
+				DACD47DB19F9B49800AA0AF8 /* document-table.png */,
+				DACD47DC19F9B49800AA0AF8 /* Document.png */,
+				DACD47DD19F9B49800AA0AF8 /* fnodc.png */,
+				DACD47DE19F9B49800AA0AF8 /* icon-cloud.png */,
+				DACD47DF19F9B49800AA0AF8 /* icon-cloudsync.png */,
+				DACD47E019F9B49800AA0AF8 /* icon-cmd.png */,
+				DACD47E119F9B49800AA0AF8 /* icon-copy.png */,
+				DACD47E219F9B49800AA0AF8 /* icon-databas11.png */,
+				DACD47E319F9B49800AA0AF8 /* icon-databas14.png */,
+				DACD47E419F9B49800AA0AF8 /* icon-databas15.png */,
+				DACD47E519F9B49800AA0AF8 /* icon-database.png */,
+				DACD47E619F9B49800AA0AF8 /* icon-refresh.png */,
+				DACD47E719F9B49800AA0AF8 /* layout-select-footer.png */,
+				DACD47E819F9B49800AA0AF8 /* layout-select-sidebar.png */,
+				DACD47E919F9B49800AA0AF8 /* lightning.png */,
+				DACD47EA19F9B49800AA0AF8 /* PagesView3.png */,
+				DACD47EB19F9B49800AA0AF8 /* play.png */,
+				DACD47EC19F9B49800AA0AF8 /* reload-icon.png */,
+				DACD47ED19F9B49800AA0AF8 /* run-script.png */,
+				DACD47EE19F9B49800AA0AF8 /* start.png */,
+				DACD47EF19F9B49800AA0AF8 /* stock_data_new_sql_query.png */,
+				DACD47F019F9B49800AA0AF8 /* stock_function_autopilot.png */,
+				DACD47F119F9B49800AA0AF8 /* stock_insert_index_marker.png */,
+				DACD47F219F9B49800AA0AF8 /* tabBarItem1.png */,
+				DACD47F319F9B49800AA0AF8 /* tabBarItem3.png */,
+				DACD47F419F9B49800AA0AF8 /* table--minus.png */,
+				DACD47F519F9B49800AA0AF8 /* table--pencil.png */,
+				DACD47F619F9B49800AA0AF8 /* table--plus.png */,
+				DACD47F719F9B49800AA0AF8 /* table-big.png */,
+				DACD47F819F9B49800AA0AF8 /* table-delete-column.png */,
+				DACD47F919F9B49800AA0AF8 /* table-delete-row.png */,
+				DACD47FA19F9B49800AA0AF8 /* table-delete.png */,
+				DACD47FB19F9B49800AA0AF8 /* table-draw.png */,
+				DACD47FC19F9B49800AA0AF8 /* table-export.png */,
+				DACD47FD19F9B49800AA0AF8 /* table-import.png */,
+				DACD47FE19F9B49800AA0AF8 /* table-insert-column.png */,
+				DACD47FF19F9B49800AA0AF8 /* table-insert-row.png */,
+				DACD480019F9B49800AA0AF8 /* table-select.png */,
+				DACD480119F9B49800AA0AF8 /* table.png */,
+				DACD480219F9B49800AA0AF8 /* table_plus.png */,
+				DACD480319F9B49800AA0AF8 /* tablebw.png */,
+				DACD480419F9B49800AA0AF8 /* tick-big.png */,
+				DACD480519F9B49800AA0AF8 /* tick-circle.png */,
+				DACD480619F9B49800AA0AF8 /* tick.png */,
+				DACD480719F9B49800AA0AF8 /* ui-menu-blue.png */,
+				DACD480819F9B49800AA0AF8 /* view.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		DACD485A19F9B52E00AA0AF8 /* mgsfiles */ = {
+			isa = PBXGroup;
+			children = (
+				DA7EAA1C182F0676002EAFD6 /* ErrorPopoverView.nib */,
+				DA7EAA1D182F0676002EAFD6 /* Info.plist */,
+				DA7EAA1E182F0676002EAFD6 /* LICENSE-2.0.txt */,
+				DA7EAA1F182F0676002EAFD6 /* LICENSE.html */,
+				DA7EAA20182F0676002EAFD6 /* MGSPreferencesFontsAndColours.nib */,
+				DA7EAA21182F0676002EAFD6 /* MGSPreferencesTextEditing.nib */,
+				DA7EAA22182F0676002EAFD6 /* README.md */,
+				DA7EAA23182F0676002EAFD6 /* SMLCommandResult.nib */,
+				DA7EAA24182F0676002EAFD6 /* SMLDetab.nib */,
+				DA7EAA25182F0676002EAFD6 /* SMLEntab.nib */,
+				DA7EAA26182F0676002EAFD6 /* SMLGoToLine.nib */,
+				DA7EAA27182F0676002EAFD6 /* SMLOpenPanelAccessoryView.nib */,
+				DA7EAA28182F0676002EAFD6 /* SMLRegularExpressionHelp.nib */,
+				DA7EAA17182F0675002EAFD6 /* editor-breakpoint-0.png */,
+				DA7EAA18182F0675002EAFD6 /* editor-breakpoint-1.png */,
+				DA7EAA19182F0675002EAFD6 /* editor-breakpoint-2.png */,
+				DA7EAA1A182F0675002EAFD6 /* editor-breakpoint.png */,
+				DA7EAA1B182F0675002EAFD6 /* editor-warning.png */,
+				DA7EAA95182F0707002EAFD6 /* actionscript.plist */,
+				DA7EAA96182F0707002EAFD6 /* actionscript3.plist */,
+				DA7EAA97182F0708002EAFD6 /* active4d.plist */,
+				DA7EAA98182F0708002EAFD6 /* ada.plist */,
+				DA7EAA99182F0708002EAFD6 /* ampl.plist */,
+				DA7EAA9A182F0708002EAFD6 /* apache.plist */,
+				DA7EAA9B182F0708002EAFD6 /* applescript.plist */,
+				DA7EAA9C182F0708002EAFD6 /* asm-mips.plist */,
+				DA7EAA9D182F0708002EAFD6 /* asm-x86.plist */,
+				DA7EAA9E182F0708002EAFD6 /* asp-js.plist */,
+				DA7EAA9F182F0708002EAFD6 /* asp-vb.plist */,
+				DA7EAAA0182F0708002EAFD6 /* aspdotnet-cs.plist */,
+				DA7EAAA1182F0708002EAFD6 /* aspdotnet-vb.plist */,
+				DA7EAAA2182F0708002EAFD6 /* awk.plist */,
+				DA7EAAA3182F0708002EAFD6 /* batch.plist */,
+				DA7EAAA4182F0708002EAFD6 /* c.plist */,
+				DA7EAAA5182F0708002EAFD6 /* cobol.plist */,
+				DA7EAAA6182F0708002EAFD6 /* coffeescript.plist */,
+				DA7EAAA7182F0708002EAFD6 /* coldfusion.plist */,
+				DA7EAAA8182F0708002EAFD6 /* cpp.plist */,
+				DA7EAAA9182F0708002EAFD6 /* csharp.plist */,
+				DA7EAAAA182F0708002EAFD6 /* csound.plist */,
+				DA7EAAAB182F0708002EAFD6 /* css.plist */,
+				DA7EAAAC182F0708002EAFD6 /* d.plist */,
+				DA7EAAAD182F0708002EAFD6 /* dylan.plist */,
+				DA7EAAAE182F0708002EAFD6 /* eiffel.plist */,
+				DA7EAAAF182F0708002EAFD6 /* erl.plist */,
+				DA7EAAB0182F0709002EAFD6 /* eztpl.plist */,
+				DA7EAAB1182F0709002EAFD6 /* f-script.plist */,
+				DA7EAAB2182F0709002EAFD6 /* fortran.plist */,
+				DA7EAAB3182F0709002EAFD6 /* freefem.plist */,
+				DA7EAAB4182F0709002EAFD6 /* gedcom.plist */,
+				DA7EAAB5182F0709002EAFD6 /* gnuassembler.plist */,
+				DA7EAAB6182F0709002EAFD6 /* graphviz.plist */,
+				DA7EAAB7182F0709002EAFD6 /* haskell.plist */,
+				DA7EAAB8182F0709002EAFD6 /* header.plist */,
+				DA7EAAB9182F0709002EAFD6 /* html.plist */,
+				DA7EAABA182F0709002EAFD6 /* idl.plist */,
+				DA7EAABB182F0709002EAFD6 /* java.plist */,
+				DA7EAABC182F0709002EAFD6 /* javafx.plist */,
+				DA7EAABD182F0709002EAFD6 /* javascript.plist */,
+				DA7EAABE182F0709002EAFD6 /* jsp.plist */,
+				DA7EAABF182F0709002EAFD6 /* latex.plist */,
+				DA7EAAC0182F0709002EAFD6 /* lilypond.plist */,
+				DA7EAAC1182F0709002EAFD6 /* lisp.plist */,
+				DA7EAAC2182F0709002EAFD6 /* logtalk.plist */,
+				DA7EAAC3182F0709002EAFD6 /* lsl.plist */,
+				DA7EAAC4182F0709002EAFD6 /* lua.plist */,
+				DA7EAAC5182F0709002EAFD6 /* matlab.plist */,
+				DA7EAAC6182F0709002EAFD6 /* mel.plist */,
+				DA7EAAC7182F0709002EAFD6 /* metapost.plist */,
+				DA7EAAC8182F070A002EAFD6 /* metaslang.plist */,
+				DA7EAAC9182F070A002EAFD6 /* mysql.plist */,
+				DA7EAACA182F070A002EAFD6 /* nemerle.plist */,
+				DA7EAACB182F070A002EAFD6 /* none.plist */,
+				DA7EAACC182F070A002EAFD6 /* nrnhoc.plist */,
+				DA7EAACD182F070A002EAFD6 /* objectivec.plist */,
+				DA7EAACE182F070A002EAFD6 /* objectivecaml.plist */,
+				DA7EAACF182F070A002EAFD6 /* ox.plist */,
+				DA7EAAD0182F070A002EAFD6 /* pascal.plist */,
+				DA7EAAD1182F070A002EAFD6 /* pdf.plist */,
+				DA7EAAD2182F070A002EAFD6 /* perl.plist */,
+				DA7EAAD3182F070A002EAFD6 /* php.plist */,
+				DA7EAAD4182F070A002EAFD6 /* plist.plist */,
+				DA7EAAD5182F070A002EAFD6 /* postscript.plist */,
+				DA7EAAD6182F070A002EAFD6 /* prolog.plist */,
+				DA7EAAD7182F070A002EAFD6 /* python.plist */,
+				DA7EAAD8182F070A002EAFD6 /* r.plist */,
+				DA7EAAD9182F070A002EAFD6 /* rhtml.plist */,
+				DA7EAADA182F070A002EAFD6 /* ruby.plist */,
+				DA7EAADB182F070A002EAFD6 /* scala.plist */,
+				DA7EAADC182F070A002EAFD6 /* sgml.plist */,
+				DA7EAADD182F070A002EAFD6 /* shell.plist */,
+				DA7EAADE182F070A002EAFD6 /* sml.plist */,
+				DA7EAADF182F070A002EAFD6 /* sql.plist */,
+				DA7EAAE0182F070A002EAFD6 /* standard.plist */,
+				DA7EAAE1182F070A002EAFD6 /* stata.plist */,
+				DA7EAAE2182F070A002EAFD6 /* supercollider.plist */,
+				DA7EAAE3182F070B002EAFD6 /* tcltk.plist */,
+				DA7EAAE4182F070B002EAFD6 /* torquescript.plist */,
+				DA7EAAE5182F070B002EAFD6 /* udo.plist */,
+				DA7EAAE6182F070B002EAFD6 /* vb.plist */,
+				DA7EAAE7182F070B002EAFD6 /* verilog.plist */,
+				DA7EAAE8182F070B002EAFD6 /* vhdl.plist */,
+				DA7EAAE9182F070B002EAFD6 /* xml.plist */,
+			);
+			name = mgsfiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8E5A1D1703102B00329E65 /* Nora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8E5A4F1703102B00329E65 /* Build configuration list for PBXNativeTarget "Nora" */;
+			buildPhases = (
+				CD8E5A1A1703102B00329E65 /* Sources */,
+				CD8E5A1B1703102B00329E65 /* Frameworks */,
+				CD8E5A1C1703102B00329E65 /* Resources */,
+				DA89E2E4178D47A3002D02D3 /* CopyFiles */,
+				DA7EA8FC182EFFB4002EAFD6 /* CopyFiles */,
+				DA7863E11868D56000562A33 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nora;
+			productName = Nora;
+			productReference = CD8E5A1E1703102B00329E65 /* Nora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD8E5A3D1703102B00329E65 /* NoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8E5A521703102B00329E65 /* Build configuration list for PBXNativeTarget "NoraTests" */;
+			buildPhases = (
+				CD8E5A391703102B00329E65 /* Sources */,
+				CD8E5A3A1703102B00329E65 /* Frameworks */,
+				CD8E5A3B1703102B00329E65 /* Resources */,
+				CD8E5A3C1703102B00329E65 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8E5A431703102B00329E65 /* PBXTargetDependency */,
+			);
+			name = NoraTests;
+			productName = NoraTests;
+			productReference = CD8E5A3E1703102B00329E65 /* NoraTests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8E5A161703102B00329E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Paul Smal";
+			};
+			buildConfigurationList = CD8E5A191703102B00329E65 /* Build configuration list for PBXProject "Nora" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD8E5A151703102B00329E65;
+			productRefGroup = CD8E5A1F1703102B00329E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8E5A1D1703102B00329E65 /* Nora */,
+				CD8E5A3D1703102B00329E65 /* NoraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8E5A1C1703102B00329E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACD484019F9B49800AA0AF8 /* stock_insert_index_marker.png in Resources */,
+				CD8E5A2C1703102B00329E65 /* InfoPlist.strings in Resources */,
+				CD8E5A321703102B00329E65 /* Credits.rtf in Resources */,
+				DACD482719F9B49800AA0AF8 /* databasenn.png in Resources */,
+				DACD481D19F9B49800AA0AF8 /* database--minus.png in Resources */,
+				CD8E5A381703102B00329E65 /* MainMenu.xib in Resources */,
+				CD8E5A6717031DB600329E65 /* ConnectionViewViewController.xib in Resources */,
+				DACD484719F9B49800AA0AF8 /* table-delete-column.png in Resources */,
+				DACD483A19F9B49800AA0AF8 /* play.png in Resources */,
+				DACD481519F9B49800AA0AF8 /* blue-document-insert.png in Resources */,
+				CD8E5A6C1703295C00329E65 /* QueryController.xib in Resources */,
+				DACD483F19F9B49800AA0AF8 /* stock_function_autopilot.png in Resources */,
+				CDD064871722AACF00F550FB /* TableViewViewController.xib in Resources */,
+				CD38A110172A6B2B00AD15EA /* TableController.xib in Resources */,
+				CDE71786175F5AFE0044EFD4 /* TablePropertiesViewController.xib in Resources */,
+				DACD483619F9B49800AA0AF8 /* layout-select-footer.png in Resources */,
+				DA8827CD17E33A9600AA08B5 /* IndexViewController.xib in Resources */,
+				DAE460A417E5C4C100912690 /* TestController.xib in Resources */,
+				DACD484219F9B49800AA0AF8 /* tabBarItem3.png in Resources */,
+				DAE460AF17E8AF8100912690 /* TypeViewClt.xib in Resources */,
+				DACD480E19F9B49800AA0AF8 /* application-terminal.png in Resources */,
+				DAE460B117E8B4C700912690 /* IndexViewClt.xib in Resources */,
+				DACD485719F9B49800AA0AF8 /* view.png in Resources */,
+				DACD483019F9B49800AA0AF8 /* icon-copy.png in Resources */,
+				DACD481119F9B49800AA0AF8 /* blue-documen-sql.png in Resources */,
+				DAE460CA17F23A5D00912690 /* Sheet.xib in Resources */,
+				DA637E45180195DA00C52261 /* nora.iconset in Resources */,
+				DACD481819F9B49800AA0AF8 /* close.png in Resources */,
+				DA7EA956182F013F002EAFD6 /* actionscript.plist in Resources */,
+				DACD482219F9B49800AA0AF8 /* database-medium.png in Resources */,
+				DACD483519F9B49800AA0AF8 /* icon-refresh.png in Resources */,
+				DA7EA957182F013F002EAFD6 /* actionscript3.plist in Resources */,
+				DA7EA958182F013F002EAFD6 /* active4d.plist in Resources */,
+				DA7EA959182F013F002EAFD6 /* ada.plist in Resources */,
+				DA7EA95A182F013F002EAFD6 /* ampl.plist in Resources */,
+				DA7EA95B182F013F002EAFD6 /* apache.plist in Resources */,
+				DACD485519F9B49800AA0AF8 /* tick.png in Resources */,
+				DACD484F19F9B49800AA0AF8 /* table-select.png in Resources */,
+				DA7EA95C182F013F002EAFD6 /* applescript.plist in Resources */,
+				DA7EA95D182F013F002EAFD6 /* asm-mips.plist in Resources */,
+				DA7EA95E182F013F002EAFD6 /* asm-x86.plist in Resources */,
+				DA7EA95F182F013F002EAFD6 /* asp-js.plist in Resources */,
+				DACD482619F9B49800AA0AF8 /* databasebww.png in Resources */,
+				DACD483919F9B49800AA0AF8 /* PagesView3.png in Resources */,
+				DA7EA960182F013F002EAFD6 /* asp-vb.plist in Resources */,
+				DACD484919F9B49800AA0AF8 /* table-delete.png in Resources */,
+				DACD480A19F9B49800AA0AF8 /* 1369241028_arrow_circle_double.png in Resources */,
+				DA7EA961182F013F002EAFD6 /* aspdotnet-cs.plist in Resources */,
+				DACD481C19F9B49800AA0AF8 /* database--arrow.png in Resources */,
+				DA7EA962182F013F002EAFD6 /* aspdotnet-vb.plist in Resources */,
+				DA7EA963182F013F002EAFD6 /* awk.plist in Resources */,
+				DACD484D19F9B49800AA0AF8 /* table-insert-column.png in Resources */,
+				DA7EA964182F013F002EAFD6 /* batch.plist in Resources */,
+				DACD485419F9B49800AA0AF8 /* tick-circle.png in Resources */,
+				DACD482519F9B49800AA0AF8 /* databasebw.png in Resources */,
+				DA7EA965182F013F002EAFD6 /* c.plist in Resources */,
+				DACD481619F9B49800AA0AF8 /* category.png in Resources */,
+				DA7EA966182F013F002EAFD6 /* cobol.plist in Resources */,
+				DA7EA967182F013F002EAFD6 /* coffeescript.plist in Resources */,
+				DACD484619F9B49800AA0AF8 /* table-big.png in Resources */,
+				DACD485319F9B49800AA0AF8 /* tick-big.png in Resources */,
+				DA7EA968182F013F002EAFD6 /* coldfusion.plist in Resources */,
+				DA7EA969182F013F002EAFD6 /* cpp.plist in Resources */,
+				DA7EA96A182F013F002EAFD6 /* csharp.plist in Resources */,
+				DA7EA96B182F013F002EAFD6 /* csound.plist in Resources */,
+				DACD483D19F9B49800AA0AF8 /* start.png in Resources */,
+				DA7EA96C182F013F002EAFD6 /* css.plist in Resources */,
+				DACD480C19F9B49800AA0AF8 /* application-dock-270.png in Resources */,
+				DA7EA96D182F013F002EAFD6 /* d.plist in Resources */,
+				DACD482D19F9B49800AA0AF8 /* icon-cloud.png in Resources */,
+				DACD483E19F9B49800AA0AF8 /* stock_data_new_sql_query.png in Resources */,
+				DA7EA96E182F013F002EAFD6 /* dylan.plist in Resources */,
+				DA7EA96F182F013F002EAFD6 /* eiffel.plist in Resources */,
+				DACD482E19F9B49800AA0AF8 /* icon-cloudsync.png in Resources */,
+				DA7EA970182F013F002EAFD6 /* erl.plist in Resources */,
+				DA7EA971182F013F002EAFD6 /* eztpl.plist in Resources */,
+				DA7EA972182F013F002EAFD6 /* f-script.plist in Resources */,
+				DA7EA973182F013F002EAFD6 /* fortran.plist in Resources */,
+				DACD484519F9B49800AA0AF8 /* table--plus.png in Resources */,
+				DACD482F19F9B49800AA0AF8 /* icon-cmd.png in Resources */,
+				DA7EA974182F013F002EAFD6 /* freefem.plist in Resources */,
+				DACD484319F9B49800AA0AF8 /* table--minus.png in Resources */,
+				DA7EA975182F013F002EAFD6 /* gedcom.plist in Resources */,
+				DACD481219F9B49800AA0AF8 /* blue-document--minus.png in Resources */,
+				DA7EA976182F013F002EAFD6 /* gnuassembler.plist in Resources */,
+				DA7EA977182F013F002EAFD6 /* graphviz.plist in Resources */,
+				DACD481919F9B49800AA0AF8 /* cross-script.png in Resources */,
+				DACD483119F9B49800AA0AF8 /* icon-databas11.png in Resources */,
+				DACD484E19F9B49800AA0AF8 /* table-insert-row.png in Resources */,
+				DACD485119F9B49800AA0AF8 /* table_plus.png in Resources */,
+				DA7EA978182F013F002EAFD6 /* haskell.plist in Resources */,
+				DACD483319F9B49800AA0AF8 /* icon-databas15.png in Resources */,
+				DA7EA979182F013F002EAFD6 /* header.plist in Resources */,
+				DA7EA97A182F013F002EAFD6 /* html.plist in Resources */,
+				DACD484C19F9B49800AA0AF8 /* table-import.png in Resources */,
+				DACD482119F9B49800AA0AF8 /* database-export.png in Resources */,
+				DA7EA97B182F013F002EAFD6 /* idl.plist in Resources */,
+				DA7EA97C182F013F002EAFD6 /* java.plist in Resources */,
+				DACD480B19F9B49800AA0AF8 /* 1388528327_sync.png in Resources */,
+				DA7EA97D182F013F002EAFD6 /* javafx.plist in Resources */,
+				DA7EA97E182F013F002EAFD6 /* javascript.plist in Resources */,
+				DACD484B19F9B49800AA0AF8 /* table-export.png in Resources */,
+				DA7EA97F182F013F002EAFD6 /* jsp.plist in Resources */,
+				DA7EA980182F013F002EAFD6 /* latex.plist in Resources */,
+				DA7EA981182F013F002EAFD6 /* lilypond.plist in Resources */,
+				DA7EA982182F013F002EAFD6 /* lisp.plist in Resources */,
+				DA7EA983182F013F002EAFD6 /* logtalk.plist in Resources */,
+				DACD482C19F9B49800AA0AF8 /* fnodc.png in Resources */,
+				DA7EA984182F013F002EAFD6 /* lsl.plist in Resources */,
+				DA7EA985182F013F002EAFD6 /* lua.plist in Resources */,
+				DA7EA986182F013F002EAFD6 /* matlab.plist in Resources */,
+				DACD481419F9B49800AA0AF8 /* blue-document-block.png in Resources */,
+				DACD483219F9B49800AA0AF8 /* icon-databas14.png in Resources */,
+				DA7EA987182F013F002EAFD6 /* mel.plist in Resources */,
+				DACD485919F9B50600AA0AF8 /* application-dock-180.png in Resources */,
+				DA7EA988182F013F002EAFD6 /* metapost.plist in Resources */,
+				DA7EA989182F013F002EAFD6 /* metaslang.plist in Resources */,
+				DACD481019F9B49800AA0AF8 /* block.png in Resources */,
+				DA7EA98A182F013F002EAFD6 /* mysql.plist in Resources */,
+				DA7EA98B182F013F002EAFD6 /* nemerle.plist in Resources */,
+				DACD481719F9B49800AA0AF8 /* clipboard-sign-out.png in Resources */,
+				DACD482B19F9B49800AA0AF8 /* Document.png in Resources */,
+				DA7EA98C182F013F002EAFD6 /* none.plist in Resources */,
+				DA7EA98D182F013F002EAFD6 /* nrnhoc.plist in Resources */,
+				DA7EA98E182F013F002EAFD6 /* objectivec.plist in Resources */,
+				DACD480F19F9B49800AA0AF8 /* application_view_list.png in Resources */,
+				DA7EA98F182F013F002EAFD6 /* objectivecaml.plist in Resources */,
+				DACD483419F9B49800AA0AF8 /* icon-database.png in Resources */,
+				DA7EA990182F013F002EAFD6 /* ox.plist in Resources */,
+				DACD485219F9B49800AA0AF8 /* tablebw.png in Resources */,
+				DA7EA991182F013F002EAFD6 /* pascal.plist in Resources */,
+				DA7EA992182F013F002EAFD6 /* pdf.plist in Resources */,
+				DA7EA993182F013F002EAFD6 /* perl.plist in Resources */,
+				DACD481E19F9B49800AA0AF8 /* database--pencil.png in Resources */,
+				DA7EA994182F013F002EAFD6 /* php.plist in Resources */,
+				DA7EA995182F013F002EAFD6 /* plist.plist in Resources */,
+				DA7EA996182F013F002EAFD6 /* postscript.plist in Resources */,
+				DA7EA997182F013F002EAFD6 /* prolog.plist in Resources */,
+				DACD485019F9B49800AA0AF8 /* table.png in Resources */,
+				DACD482819F9B49800AA0AF8 /* db.png in Resources */,
+				DA7EA998182F013F002EAFD6 /* python.plist in Resources */,
+				DA7EA999182F013F002EAFD6 /* r.plist in Resources */,
+				DACD483C19F9B49800AA0AF8 /* run-script.png in Resources */,
+				DA7EA99A182F013F002EAFD6 /* rhtml.plist in Resources */,
+				DACD482A19F9B49800AA0AF8 /* document-table.png in Resources */,
+				DACD484419F9B49800AA0AF8 /* table--pencil.png in Resources */,
+				DACD480D19F9B49800AA0AF8 /* application-sidebar-expand.png in Resources */,
+				DA7EA99B182F013F002EAFD6 /* ruby.plist in Resources */,
+				DACD481A19F9B49800AA0AF8 /* cross.png in Resources */,
+				DACD481B19F9B49800AA0AF8 /* Data-Database-icon.png in Resources */,
+				DA7EA99C182F013F002EAFD6 /* scala.plist in Resources */,
+				DA7EA99D182F013F002EAFD6 /* sgml.plist in Resources */,
+				DA7EA99E182F013F002EAFD6 /* shell.plist in Resources */,
+				DA7EA99F182F013F002EAFD6 /* sml.plist in Resources */,
+				DA7EA9A0182F013F002EAFD6 /* sql.plist in Resources */,
+				DA7EA9A1182F013F002EAFD6 /* standard.plist in Resources */,
+				DA7EA9A2182F013F002EAFD6 /* stata.plist in Resources */,
+				DA7EA9A3182F013F002EAFD6 /* supercollider.plist in Resources */,
+				DA7EA9A4182F013F002EAFD6 /* tcltk.plist in Resources */,
+				DA7EA9A5182F013F002EAFD6 /* torquescript.plist in Resources */,
+				DACD482319F9B49800AA0AF8 /* database-sql.png in Resources */,
+				DACD484819F9B49800AA0AF8 /* table-delete-row.png in Resources */,
+				DA7EA9A6182F013F002EAFD6 /* udo.plist in Resources */,
+				DACD485619F9B49800AA0AF8 /* ui-menu-blue.png in Resources */,
+				DACD481F19F9B49800AA0AF8 /* database--plus.png in Resources */,
+				DACD484A19F9B49800AA0AF8 /* table-draw.png in Resources */,
+				DACD483719F9B49800AA0AF8 /* layout-select-sidebar.png in Resources */,
+				DA7EA9A7182F013F002EAFD6 /* vb.plist in Resources */,
+				DA7EA9A8182F013F002EAFD6 /* verilog.plist in Resources */,
+				DA7EA9A9182F013F002EAFD6 /* vhdl.plist in Resources */,
+				DACD483B19F9B49800AA0AF8 /* reload-icon.png in Resources */,
+				DA7EA9AA182F013F002EAFD6 /* xml.plist in Resources */,
+				DA7EA9AB182F013F002EAFD6 /* SyntaxDefinitions.plist in Resources */,
+				DACB3005186E0D5100B9FCDC /* PasswordView.xib in Resources */,
+				DACD480919F9B49800AA0AF8 /* 024.png in Resources */,
+				DACB3007186E143600B9FCDC /* PasswordSheet.xib in Resources */,
+				DACD482419F9B49800AA0AF8 /* database.png in Resources */,
+				DA6E9BE8187B055D0082F3D5 /* BindSheet.xib in Resources */,
+				DACD483819F9B49800AA0AF8 /* lightning.png in Resources */,
+				DACD482019F9B49800AA0AF8 /* database-cloud.png in Resources */,
+				DACD484119F9B49800AA0AF8 /* tabBarItem1.png in Resources */,
+				DACD481319F9B49800AA0AF8 /* blue-document--plus.png in Resources */,
+				DACD482919F9B49800AA0AF8 /* disk-black.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8E5A3B1703102B00329E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E5A491703102B00329E65 /* InfoPlist.strings in Resources */,
+				CD38A111172A6B2B00AD15EA /* TableController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD8E5A3C1703102B00329E65 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		DA7863E11868D56000562A33 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8E5A1A1703102B00329E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E5A2E1703102B00329E65 /* main.m in Sources */,
+				CD8E5A351703102B00329E65 /* AppDelegate.m in Sources */,
+				CD8E5A5C1703108600329E65 /* PXSourceList.m in Sources */,
+				CD8E5A5F170310A400329E65 /* SourceListItem.m in Sources */,
+				CD8E5A62170314BA00329E65 /* ColorGradientView.m in Sources */,
+				CD8E5A6617031DB600329E65 /* ConnectionViewViewController.m in Sources */,
+				CD8E5A6B1703295C00329E65 /* QueryController.m in Sources */,
+				CD2F349A1714968700A78744 /* DMTabBar.m in Sources */,
+				CD2F349B1714968700A78744 /* DMTabBarItem.m in Sources */,
+				CDFE681A171727A3008DCC17 /* Connection.m in Sources */,
+				CDD064861722AACF00F550FB /* TableViewViewController.m in Sources */,
+				CD38A10E172A6B2B00AD15EA /* TableController.m in Sources */,
+				CD38A114172BBE3400AD15EA /* ConnectionManager.m in Sources */,
+				CD6049FC173949CF0035E779 /* PSTableView.m in Sources */,
+				CD029D3317422AEC00569F38 /* NOError.m in Sources */,
+				CD043D00174DE3C8009DA526 /* NOColumn.m in Sources */,
+				CD043D05174DFF08009DA526 /* NOTempObject.m in Sources */,
+				CD0A20F817536E0300722CE4 /* ColumnCellView.m in Sources */,
+				CDE7177E175CA5570044EFD4 /* DataTableController.m in Sources */,
+				CDE71781175CA6230044EFD4 /* DataTableView.m in Sources */,
+				CDE71785175F5AFE0044EFD4 /* TablePropertiesViewController.m in Sources */,
+				CD93F47C17688618004104B6 /* ColorGradWithShadow.m in Sources */,
+				CD57595F177D88A300B10BF5 /* IndexCellView.m in Sources */,
+				CD575962177EF57600B10BF5 /* ConstraintCellView.m in Sources */,
+				DA8827CC17E33A9600AA08B5 /* IndexViewController.m in Sources */,
+				DAE460A717E5C4DB00912690 /* TestViewController.m in Sources */,
+				DAE460AA17E85DB900912690 /* ViewCellView.m in Sources */,
+				DAE460AD17E8AF7000912690 /* TypeViewClt.m in Sources */,
+				DAE460B417E8B4D500912690 /* IndexViewClt.m in Sources */,
+				DAE460C517EF2D0C00912690 /* TypeCellView.m in Sources */,
+				DAE460C817F1F6E200912690 /* ViewTableDelegate.m in Sources */,
+				DAE460CF17F5859C00912690 /* DepCellView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8E5A391703102B00329E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E5A4C1703102B00329E65 /* NoraTests.m in Sources */,
+				CD38A10F172A6B2B00AD15EA /* TableController.m in Sources */,
+				CD38A115172BBE3400AD15EA /* ConnectionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD8E5A431703102B00329E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8E5A1D1703102B00329E65 /* Nora */;
+			targetProxy = CD8E5A421703102B00329E65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD8E5A2A1703102B00329E65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8E5A2B1703102B00329E65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD8E5A301703102B00329E65 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8E5A311703102B00329E65 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CD8E5A361703102B00329E65 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8E5A371703102B00329E65 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CD8E5A471703102B00329E65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8E5A481703102B00329E65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD8E5A4D1703102B00329E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD8E5A4E1703102B00329E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD8E5A501703102B00329E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Nora/Nora.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nora/Nora-Prefix.pch";
+				INFOPLIST_FILE = "Nora/Nora-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD8E5A511703102B00329E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Nora/Nora.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nora/Nora-Prefix.pch";
+				INFOPLIST_FILE = "Nora/Nora-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD8E5A531703102B00329E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nora.app/Contents/MacOS/Nora";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nora/Nora-Prefix.pch";
+				INFOPLIST_FILE = "NoraTests/NoraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CD8E5A541703102B00329E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nora.app/Contents/MacOS/Nora";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nora/Nora-Prefix.pch";
+				INFOPLIST_FILE = "NoraTests/NoraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8E5A191703102B00329E65 /* Build configuration list for PBXProject "Nora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8E5A4D1703102B00329E65 /* Debug */,
+				CD8E5A4E1703102B00329E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8E5A4F1703102B00329E65 /* Build configuration list for PBXNativeTarget "Nora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8E5A501703102B00329E65 /* Debug */,
+				CD8E5A511703102B00329E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8E5A521703102B00329E65 /* Build configuration list for PBXNativeTarget "NoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8E5A531703102B00329E65 /* Debug */,
+				CD8E5A541703102B00329E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD8E5A161703102B00329E65 /* Project object */;
+}
