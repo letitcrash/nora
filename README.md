@@ -1,4 +1,4 @@
-Deprecated project, migrated to Linux and have no any Mac OS
+Deprecated project, migrated to Linux and don't use Mac OS anymore
 
 ![nora](https://raw.githubusercontent.com/paulsmal/nora/master/screenshots/connection.png)
 ![nora](https://raw.githubusercontent.com/paulsmal/nora/master/screenshots/sql_query.png)
